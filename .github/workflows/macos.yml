@@ -13,10 +13,10 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v3
         with:
-          go-version: '1.21'   # подставьте версию из вашего go.mod
+          go-version: '1.26'
 
       - name: Build
         run: go build -o pc-diagnostic-macos .
 
-       - name: Run diagnostics
+      - name: Run diagnostics
         run: echo "C" | ./pc-diagnostic-macos
