@@ -1,0 +1,7 @@
+*.exe
+pc-diagnostic
+pc-diagnostic-darwin-*
+schedule_log.csv
+baseline.json
+logs/
+*.log

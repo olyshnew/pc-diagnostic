@@ -1,0 +1,19 @@
+{
+    "parallel_execution": true,
+    "output_format": "text",
+    "output_file": "diagnostic_report.txt",
+    "mode": "monitor",
+    "thresholds": {
+        "cpu":    { "warning": 70, "critical": 90 },
+        "ram":    { "warning": 80, "critical": 95 },
+        "temp":   { "warning": 70, "critical": 85 }
+    },
+    "schedule": {
+        "enabled": false,
+        "interval_seconds": 60
+    },
+    "web": {
+        "login": "admin",
+        "password": "test123"
+    }
+}

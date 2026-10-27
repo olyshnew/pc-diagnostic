@@ -1,0 +1,2710 @@
+{
+  "Title": "Отчёт диагностики ПК",
+  "Date": "11.10.2026 13:19:21",
+  "Sections": [
+    {
+      "Title": "Диски",
+      "Rows": [
+        {
+          "Label": "Устройство",
+          "Value": "C:"
+        },
+        {
+          "Label": "Точка монтирования",
+          "Value": "C:"
+        },
+        {
+          "Label": "Тип файловой системы",
+          "Value": "NTFS"
+        },
+        {
+          "Label": "Всего",
+          "Value": "952.85 ГБ"
+        },
+        {
+          "Label": "Свободно",
+          "Value": "668.89 ГБ (70.20%)"
+        },
+        {
+          "Label": "Использовано",
+          "Value": "283.97 ГБ (29.80%)"
+        }
+      ]
+    },
+    {
+      "Title": "Память",
+      "Rows": [
+        {
+          "Label": "Всего оперативной памяти (RAM)",
+          "Value": "7.83 ГБ"
+        },
+        {
+          "Label": "Свободно (Free)",
+          "Value": "3.22 ГБ"
+        },
+        {
+          "Label": "Доступно (Available, включая кэши)",
+          "Value": "3.22 ГБ"
+        },
+        {
+          "Label": "Используется RAM",
+          "Value": "58.00%"
+        },
+        {
+          "Label": "Файл подкачки (pagefile)",
+          "Value": ""
+        },
+        {
+          "Label": "Всего",
+          "Value": "12.08 ГБ"
+        },
+        {
+          "Label": "Использовано",
+          "Value": "7.06 ГБ"
+        },
+        {
+          "Label": "Использование",
+          "Value": "58.46%"
+        }
+      ]
+    },
+    {
+      "Title": "Сеть",
+      "Rows": [
+        {
+          "Label": "DNS‑серверы",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "10.2.53.86"
+        },
+        {
+          "Label": "",
+          "Value": "10.2.53.94"
+        },
+        {
+          "Label": "",
+          "Value": "10.7.21.14"
+        },
+        {
+          "Label": "",
+          "Value": "192.168.0.1"
+        }
+      ]
+    },
+    {
+      "Title": "Процессор",
+      "Rows": [
+        {
+          "Label": "Архитектура",
+          "Value": "amd64"
+        },
+        {
+          "Label": "Количество ядер",
+          "Value": "4"
+        },
+        {
+          "Label": "ОС",
+          "Value": "windows"
+        }
+      ]
+    },
+    {
+      "Title": "Видеокарта",
+      "Rows": [
+        {
+          "Label": "Видеокарта 1",
+          "Value": ""
+        },
+        {
+          "Label": "Название",
+          "Value": "NVIDIA GeForce MX110"
+        },
+        {
+          "Label": "Видеопамять",
+          "Value": "2048 МБ"
+        },
+        {
+          "Label": "Версия драйвера",
+          "Value": "27.21.14.6231"
+        },
+        {
+          "Label": "Видеокарта 2",
+          "Value": ""
+        },
+        {
+          "Label": "Название",
+          "Value": "Intel(R) UHD Graphics 605"
+        },
+        {
+          "Label": "Видеопамять",
+          "Value": "1024 МБ"
+        },
+        {
+          "Label": "Версия драйвера",
+          "Value": "27.20.100.8681"
+        }
+      ]
+    },
+    {
+      "Title": "Температура компонентов",
+      "Rows": [
+        {
+          "Label": "Температура (Thermal Zone)",
+          "Value": "39.1°C"
+        }
+      ]
+    },
+    {
+      "Title": "Вентиляторы и напряжения",
+      "Rows": [
+        {
+          "Label": "Вентиляторы и напряжения",
+          "Value": "поставщик данных не найден."
+        },
+        {
+          "Label": "",
+          "Value": "Стандартный WMI Windows не отдаёт обороты вентиляторов и напряжения."
+        },
+        {
+          "Label": "",
+          "Value": "Установите LibreHardwareMonitor (github.com/LibreHardwareMonitor/LibreHardwareMonitor),"
+        },
+        {
+          "Label": "",
+          "Value": "запустите его от имени администратора и включите Options → Enable WMI."
+        },
+        {
+          "Label": "",
+          "Value": "После этого LibreHardwareMonitor должен оставаться запущенным на время диагностики."
+        }
+      ]
+    },
+    {
+      "Title": "Диски (WMI)",
+      "Rows": [
+        {
+          "Label": "Диски (PowerShell)",
+          "Value": ""
+        },
+        {
+          "Label": "Number",
+          "Value": "0"
+        },
+        {
+          "Label": "Size",
+          "Value": "1024209543168"
+        },
+        {
+          "Label": "FriendlyName",
+          "Value": "KINGSTON SKC6001024G"
+        }
+      ]
+    },
+    {
+      "Title": "Материнская плата (WMI)",
+      "Rows": [
+        {
+          "Label": "Материнская плата",
+          "Value": "не удалось получить информацию"
+        }
+      ]
+    },
+    {
+      "Title": "Драйверы (WMI)",
+      "Rows": [
+        {
+          "Label": "Установленные драйверы (WMI)",
+          "Value": ""
+        },
+        {
+          "Label": "1394 OHCI-совместимый хост-контроллер (1394ohci, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\1394ohci.sys, Статус: OK)"
+        },
+        {
+          "Label": "3ware (3ware, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\3ware.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер Microsoft ACPI (ACPI, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ACPI.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер устройств с ACPI (AcpiDev, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\AcpiDev.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft ACPIEx Driver (acpiex, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\acpiex.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер агрегатора процессора ACPI (acpipagr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\acpipagr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер устройства измерения мощности ACPI (AcpiPmi, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\acpipmi.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер ACPI Wake Alarm (acpitime, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\acpitime.sys, Статус: OK)"
+        },
+        {
+          "Label": "Acx01000 (Acx01000, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Acx01000.sys, Статус: OK)"
+        },
+        {
+          "Label": "ADP80XX (ADP80XX, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ADP80XX.SYS, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер дополнительных функций для Winsock (AFD, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\afd.sys, Статус: OK)"
+        },
+        {
+          "Label": "afunix (afunix, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\afunix.sys, Статус: OK)"
+        },
+        {
+          "Label": "Application Compatibility Cache (ahcache, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\ahcache.sys, Статус: OK)"
+        },
+        {
+          "Label": "aksdf (aksdf, Путь",
+          "Value": "\\??\\C:\\WINDOWS\\system32\\drivers\\aksdf.sys, Статус: OK)"
+        },
+        {
+          "Label": "aksfridge (aksfridge, Путь",
+          "Value": "\\??\\C:\\WINDOWS\\system32\\drivers\\aksfridge.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер GPIO-клиента AMD (amdgpio2, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\amdgpio2.sys, Статус: OK)"
+        },
+        {
+          "Label": "Служба контроллера I2C AMD (amdi2c, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\amdi2c.sys, Статус: OK)"
+        },
+        {
+          "Label": "AMD K8 драйвер процессора (AmdK8, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\amdk8.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер процессора AMD (AmdPPM, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\amdppm.sys, Статус: OK)"
+        },
+        {
+          "Label": "amdsata (amdsata, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\amdsata.sys, Статус: OK)"
+        },
+        {
+          "Label": "amdsbs (amdsbs, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\amdsbs.sys, Статус: OK)"
+        },
+        {
+          "Label": "amdxata (amdxata, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\amdxata.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер AppID (AppID, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\appid.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер фильтра Smartlocker (applockerfltr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\applockerfltr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Adaptec SAS/SATA-II RAID - драйвер минипорта Storport (arcsas, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\arcsas.sys, Статус: OK)"
+        },
+        {
+          "Label": "ASUS Touch Service (AsusPTPDrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\AsusPTPFilter.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер асинхронного носителя RAS (AsyncMac, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\asyncmac.sys, Статус: OK)"
+        },
+        {
+          "Label": "Канал IDE (atapi, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\atapi.sys, Статус: OK)"
+        },
+        {
+          "Label": "ATKWMIACPI Driver (ATKWMIACPIIO, Путь",
+          "Value": "\\??\\C:\\Program Files (x86)\\ASUS\\ATK Package\\ATK WMIACPI\\atkwmiacpi64.sys, Статус: OK)"
+        },
+        {
+          "Label": "Сетевой адаптер VBD QLogic (b06bdrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\bxvbda.sys, Статус: OK)"
+        },
+        {
+          "Label": "Background Activity Moderator Driver (bam, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\bam.sys, Статус: OK)"
+        },
+        {
+          "Label": "BasicDisplay (BasicDisplay, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\basicdisplay.inf_amd64_19e58b6267591a82\\BasicDisplay.sys, Статус: OK)"
+        },
+        {
+          "Label": "BasicRender (BasicRender, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\basicrender.inf_amd64_eebb5a8467eb88ec\\BasicRender.sys, Статус: OK)"
+        },
+        {
+          "Label": "bcmfn2 Service (bcmfn2, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\bcmfn2.sys, Статус: OK)"
+        },
+        {
+          "Label": "Beep (Beep, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Beep.sys, Статус: OK)"
+        },
+        {
+          "Label": "Windows Bind Filter Driver (bindflt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\bindflt.sys, Статус: OK)"
+        },
+        {
+          "Label": "Браузер (bowser, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\bowser.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft Bluetooth A2dp driver (BthA2dp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\BthA2dp.sys, Статус: OK)"
+        },
+        {
+          "Label": "Служба перечислителя Bluetooth (BthEnum, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\BthEnum.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер профиля гарнитуры Microsoft Bluetooth (BthHFEnum, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\bthhfenum.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер Bluetooth с низким энергопотреблением (BthLEEnum, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Microsoft.Bluetooth.Legacy.LEEnumerator.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер радио Bluetooth (BthMini, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\BTHMINI.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер связи Bluetooth-модема (BTHMODEM, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\bthmodem.sys, Статус: OK)"
+        },
+        {
+          "Label": "Устройства Bluetooth (личной сети) (BthPan, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\bthpan.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер порта Bluetooth (BTHPORT, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\BTHport.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер порта USB радиомодуля Bluetooth (BTHUSB, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\BTHUSB.sys, Статус: OK)"
+        },
+        {
+          "Label": "Фильтр Microsoft Hyper-V VHDPMEM BTT (bttflt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\bttflt.sys, Статус: OK)"
+        },
+        {
+          "Label": "Служба для устройств контроля переносных устройств (buttonconverter, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\buttonconverter.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер вынесения решения по оплате (CAD, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\CAD.sys, Статус: OK)"
+        },
+        {
+          "Label": "CD/DVD File System Reader (cdfs, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\cdfs.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер CD-ROM дисковода (cdrom, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\cdrom.sys, Статус: OK)"
+        },
+        {
+          "Label": "cht4iscsi (cht4iscsi, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\cht4sx64.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер виртуальной шины Chelsio (cht4vbd, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\cht4vx64.sys, Статус: OK)"
+        },
+        {
+          "Label": "CimFS (CimFS, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\CimFS.sys, Статус: OK)"
+        },
+        {
+          "Label": "Потребительские ИК-устройства (circlass, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\circlass.sys, Статус: OK)"
+        },
+        {
+          "Label": "Windows Cloud Files Filter Driver (CldFlt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\cldflt.sys, Статус: OK)"
+        },
+        {
+          "Label": "Common Log (CLFS) (CLFS, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\CLFS.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер батареи с ACPI-управлением (Майкрософт) (CmBatt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\CmBatt.sys, Статус: OK)"
+        },
+        {
+          "Label": "CNG (CNG, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\cng.sys, Статус: OK)"
+        },
+        {
+          "Label": "CNG Hardware Assist algorithm provider (cnghwassist, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\cnghwassist.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер перечислителя композитной шины (CompositeBus, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\compositebus.inf_amd64_7500cffa210c6946\\CompositeBus.sys, Статус: OK)"
+        },
+        {
+          "Label": "Console Driver (condrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\condrv.sys, Статус: OK)"
+        },
+        {
+          "Label": "Desktop Activity Moderator Driver (dam, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\dam.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер клиента пространства имен DFS (Dfsc, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\dfsc.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер диска (disk, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\disk.sys, Статус: OK)"
+        },
+        {
+          "Label": "dmvsc (dmvsc, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\dmvsc.sys, Статус: OK)"
+        },
+        {
+          "Label": "dptf_acpi (dptf_acpi, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\dptf_acpi.inf_amd64_5989fd2721678bab\\dptf_acpi.sys, Статус: OK)"
+        },
+        {
+          "Label": "dptf_cpu (dptf_cpu, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\dptf_cpu.inf_amd64_4a3ae74cfa6c37d6\\dptf_cpu.sys, Статус: OK)"
+        },
+        {
+          "Label": "Доверенные аудиодрайверы Майкрософт (drmkaud, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\drmkaud.sys, Статус: OK)"
+        },
+        {
+          "Label": "LDDM Graphics Subsystem (DXGKrnl, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\dxgkrnl.sys, Статус: OK)"
+        },
+        {
+          "Label": "Адаптер QLogic 10 Gigabit Ethernet VBD (ebdrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\evbda.sys, Статус: OK)"
+        },
+        {
+          "Label": "Enhanced Storage Filter Driver (EhStorClass, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\EhStorClass.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер Майкрософт для запоминающих устройств, поддерживающих протоколы IEEE 1667 и TCG (EhStorTcgDrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\EhStorTcgDrv.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft Hardware Error Device Driver (ErrDev, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\errdev.sys, Статус: OK)"
+        },
+        {
+          "Label": "esif_lf (esif_lf, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\dptf_cpu.inf_amd64_4a3ae74cfa6c37d6\\esif_lf.sys, Статус: OK)"
+        },
+        {
+          "Label": "exFAT File System Driver (exfat, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\exfat.sys, Статус: OK)"
+        },
+        {
+          "Label": "FAT12/16/32 File System Driver (fastfat, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\fastfat.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер контроллера гибких дисков (fdc, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\fdc.sys, Статус: OK)"
+        },
+        {
+          "Label": "Acronis File Protector Driver (file_protector, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\file_protector.sys, Статус: OK)"
+        },
+        {
+          "Label": "Acronis File Tracker Driver (file_tracker, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\file_tracker.sys, Статус: OK)"
+        },
+        {
+          "Label": "FileCrypt (FileCrypt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\filecrypt.sys, Статус: OK)"
+        },
+        {
+          "Label": "File Information FS MiniFilter (FileInfo, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\fileinfo.sys, Статус: OK)"
+        },
+        {
+          "Label": "Filetrace (Filetrace, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\filetrace.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер дисковода гибких дисков (flpydisk, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\flpydisk.sys, Статус: OK)"
+        },
+        {
+          "Label": "Диспетчер фильтров (FltMgr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\fltmgr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Acronis Storage Filter Management (fltsrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\fltsrv.sys, Статус: OK)"
+        },
+        {
+          "Label": "File System Dependency Minifilter (FsDepends, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\FsDepends.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер фильтра шифрования диска BitLocker (fvevol, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\fvevol.sys, Статус: OK)"
+        },
+        {
+          "Label": "Счетчик создания Microsoft Hyper-V (gencounter, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vmgencounter.sys, Статус: OK)"
+        },
+        {
+          "Label": "Общий класс функции USB (genericusbfn, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\genericusbfn.inf_amd64_53931f0ae21d6d2c\\genericusbfn.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft GPIO Class Extension Driver (GPIOClx0101, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\msgpioclx.sys, Статус: OK)"
+        },
+        {
+          "Label": "GPU Energy Driver (GpuEnergyDrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\gpuenergydrv.sys, Статус: OK)"
+        },
+        {
+          "Label": "hardlock (hardlock, Путь",
+          "Value": "\\??\\C:\\WINDOWS\\system32\\drivers\\hardlock.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер функции UAA для службы High Definition Audio (Microsoft), версия 1.1 (HdAudAddService, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\HdAudio.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер для шины UAA для High Definition Audio (Microsoft) (HDAudBus, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\HDAudBus.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер батареи ИБП HID (HidBatt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\HidBatt.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft Bluetooth HID минипорт (HidBth, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hidbth.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер минипорта для HID-устройств на шине I2C (Майкрософт) (hidi2c, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hidi2c.sys, Статус: OK)"
+        },
+        {
+          "Label": "Общий драйвер для кнопок HID, внедренных с прерываниями (hidinterrupt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hidinterrupt.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер Microsoft Infrared HID (HidIr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hidir.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер минипорта для HID-устройств SPI Microsoft (hidspi, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hidspi.sys, Статус: OK)"
+        },
+        {
+          "Label": "HidSpi KMDF Class Extension (HidSpiCx, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\HidSpiCx.sys, Статус: OK)"
+        },
+        {
+          "Label": "ASUS Wireless Radio Control (HIDSwitch, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\AsRadioControl.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер класса HID Microsoft (HidUsb, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hidusb.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер HNS WFP (hnswfpdriver, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hnswfpdriver.sys, Статус: OK)"
+        },
+        {
+          "Label": "HpSAMD (HpSAMD, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\HpSAMD.sys, Статус: OK)"
+        },
+        {
+          "Label": "HTTP-служба (HTTP, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\HTTP.sys, Статус: OK)"
+        },
+        {
+          "Label": "hvcrash (hvcrash, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hvcrash.sys, Статус: OK)"
+        },
+        {
+          "Label": "Hypervisor/Virtual Machine Support Driver (hvservice, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hvservice.sys, Статус: OK)"
+        },
+        {
+          "Label": "hvsocketcontrol (hvsocketcontrol, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hvsocketcontrol.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft Hardware Notifications Class Extension Driver (HwNClx0101, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\mshwnclx.sys, Статус: OK)"
+        },
+        {
+          "Label": "Hardware Policy Driver (hwpolicy, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hwpolicy.sys, Статус: OK)"
+        },
+        {
+          "Label": "hyperkbd (hyperkbd, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\hyperkbd.sys, Статус: OK)"
+        },
+        {
+          "Label": "HyperVideo (HyperVideo, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\HyperVideo.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер i8042-клавиатуры и мыши для порта PS/2 (i8042prt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\i8042prt.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер контроллера GPIO с последовательным вводом-выводом Intel (iagpio, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iagpio.sys, Статус: OK)"
+        },
+        {
+          "Label": "Intel(R) Serial IO I2C Host Controller (iai2c, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iai2c.sys, Статус: OK)"
+        },
+        {
+          "Label": "Intel(R) Serial IO GPIO Driver v2 (iaLPSS2_GPIO2, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2_GPIO2.sys, Статус: OK)"
+        },
+        {
+          "Label": "Intel(R) Serial IO I2C Driver v2 (iaLPSS2_I2C, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2_I2C.sys, Статус: OK)"
+        },
+        {
+          "Label": "Intel(R) Serial IO UART Driver v2 (iaLPSS2_UART2, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2_UART2.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер версии 2 Intel(R) Serial IO GPIO (iaLPSS2i_GPIO2, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_GPIO2.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_GPIO2_BXT_P, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_GPIO2_BXT_P.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_GPIO2_CNL, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_GPIO2_CNL.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_GPIO2_GLK, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_GPIO2_GLK.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер версии 2 Intel(R) Serial IO I2C (iaLPSS2i_I2C, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_I2C.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер версии 2 I2C для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_I2C_BXT_P, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_I2C_BXT_P.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_I2C_CNL, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_I2C_CNL.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_I2C_GLK, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_I2C_GLK.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер контроллера Intel(R) Serial IO GPIO (iaLPSSi_GPIO, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSSi_GPIO.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер Intel(R) Serial IO I2C Controller (iaLPSSi_I2C, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaLPSSi_I2C.sys, Статус: OK)"
+        },
+        {
+          "Label": "RAID-контроллер SATA для набора микросхем Intel (iaStorAVC, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaStorAVC.sys, Статус: OK)"
+        },
+        {
+          "Label": "RAID-контроллер Intel для Windows 7 (iaStorV, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iaStorV.sys, Статус: OK)"
+        },
+        {
+          "Label": "Mellanox InfiniBand Bus/AL (драйвер фильтра) (ibbus, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ibbus.sys, Статус: OK)"
+        },
+        {
+          "Label": "igfx (igfx, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_e9b40d45ab4dc6b8\\igdkmd64.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер режима ядра непрямых дисплеев (IndirectKmd, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\IndirectKmd.sys, Статус: OK)"
+        },
+        {
+          "Label": "Service for Realtek HD Audio (WDM) (IntcAzAudAddService, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\RTKVHD64.sys, Статус: OK)"
+        },
+        {
+          "Label": "Аудио Intel(R) для дисплеев (IntcDAud, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\intcdaud.inf_amd64_1b570d7b9a790b1a\\IntcDAud.sys, Статус: OK)"
+        },
+        {
+          "Label": "intelide (intelide, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\intelide.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер подключаемого модуля управления питанием Intel(R) (intelpep, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\intelpep.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер диспетчера Intel(R) Dynamic Device Peak Power Manager (intelpmax, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\intelpmax.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер Intel процессора (intelppm, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\intelppm.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер фильтра скорости ввода-вывода диска (iorate, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\iorate.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер фильтра IP-трафика (IpFilterDriver, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\ipfltdrv.sys, Статус: OK)"
+        },
+        {
+          "Label": "IPMIDRV (IPMIDRV, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\IPMIDrv.sys, Статус: OK)"
+        },
+        {
+          "Label": "IP Network Address Translator (IPNAT, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ipnat.sys, Статус: OK)"
+        },
+        {
+          "Label": "IPT (IPT, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ipt.sys, Статус: OK)"
+        },
+        {
+          "Label": "isapnp (isapnp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\isapnp.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер iScsiPort (iScsiPrt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\msiscsi.sys, Статус: OK)"
+        },
+        {
+          "Label": "ItSas35i (ItSas35i, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ItSas35i.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер класса клавиатуры (kbdclass, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\kbdclass.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер клавиатуры HID (kbdhid, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\kbdhid.sys, Статус: OK)"
+        },
+        {
+          "Label": "Мини-порт сетевого адаптера с отладкой ядра (Майкрософт) (NDIS 6.20) (kdnic, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\kdnic.sys, Статус: OK)"
+        },
+        {
+          "Label": "KSecDD (KSecDD, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\ksecdd.sys, Статус: OK)"
+        },
+        {
+          "Label": "KSecPkg (KSecPkg, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\ksecpkg.sys, Статус: OK)"
+        },
+        {
+          "Label": "KslD (KslD, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\wd\\KslD.sys, Статус: OK)"
+        },
+        {
+          "Label": "Kernel Streaming Thunks (ksthunk, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ksthunk.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер моста (l2bridge, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\l2bridge.sys, Статус: OK)"
+        },
+        {
+          "Label": "Ответчик обнаружения топологии канального уровня (lltdio, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\lltdio.sys, Статус: OK)"
+        },
+        {
+          "Label": "LSI_SAS (LSI_SAS, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\lsi_sas.sys, Статус: OK)"
+        },
+        {
+          "Label": "LSI_SAS2i (LSI_SAS2i, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\lsi_sas2i.sys, Статус: OK)"
+        },
+        {
+          "Label": "LSI_SAS3i (LSI_SAS3i, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\lsi_sas3i.sys, Статус: OK)"
+        },
+        {
+          "Label": "LSI_SSS (LSI_SSS, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\lsi_sss.sys, Статус: OK)"
+        },
+        {
+          "Label": "Виртуализация файла контроля учетных записей (luafv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\luafv.sys, Статус: OK)"
+        },
+        {
+          "Label": "lxss (lxss, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\lxss.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер хост-контроллера MA-USB (mausbhost, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mausbhost.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер IP-фильтр MA-USB (mausbip, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mausbip.sys, Статус: OK)"
+        },
+        {
+          "Label": "MBB Network Adapter Class Extension (MbbCx, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\MbbCx.sys, Статус: OK)"
+        },
+        {
+          "Label": "megasas (megasas, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\megasas.sys, Статус: OK)"
+        },
+        {
+          "Label": "megasas2i (megasas2i, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\MegaSas2i.sys, Статус: OK)"
+        },
+        {
+          "Label": "megasas35i (megasas35i, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\megasas35i.sys, Статус: OK)"
+        },
+        {
+          "Label": "megasr (megasr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\megasr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Intel(R) Trusted Execution Engine Interface (MEIx64, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\TeeDriverW8x64.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер транспорта AVRCP Microsoft Bluetooth (Microsoft_Bluetooth_AvrcpTransport, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Microsoft.Bluetooth.AvrcpTransport.sys, Статус: OK)"
+        },
+        {
+          "Label": "Перечислитель шины Mellanox ConnectX (mlx4_bus, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mlx4_bus.sys, Статус: OK)"
+        },
+        {
+          "Label": "Multimedia Class Scheduler (MMCSS, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mmcss.sys, Статус: OK)"
+        },
+        {
+          "Label": "Modem (Modem, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\modem.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft Monitor Class Function Driver Service (monitor, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\monitor.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер класса мыши (mouclass, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mouclass.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер мыши HID (mouhid, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mouhid.sys, Статус: OK)"
+        },
+        {
+          "Label": "Диспетчер точек подключения (mountmgr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mountmgr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Windows Defender Firewall Authorization Driver (mpsdrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mpsdrv.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер перенаправителя клиентов WebDav (MRxDAV, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mrxdav.sys, Статус: OK)"
+        },
+        {
+          "Label": "Оболочка и модуль мини-перенаправителя SMB (mrxsmb, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\mrxsmb.sys, Статус: OK)"
+        },
+        {
+          "Label": "Мини-перенаправитель SMB 2.0 (mrxsmb20, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\mrxsmb20.sys, Статус: OK)"
+        },
+        {
+          "Label": "MAC-мост (Майкрософт) (MsBridge, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\bridge.sys, Статус: OK)"
+        },
+        {
+          "Label": "Msfs (Msfs, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Msfs.sys, Статус: OK)"
+        },
+        {
+          "Label": "Общий драйвер для кнопок, режима подставки и индикатора ноутбука/планшета (msgpiowin32, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\msgpiowin32.sys, Статус: OK)"
+        },
+        {
+          "Label": "Pass-through HID to KMDF Filter Driver (mshidkmdf, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mshidkmdf.sys, Статус: OK)"
+        },
+        {
+          "Label": "Сквозной драйвер HID-UMDF (mshidumdf, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mshidumdf.sys, Статус: OK)"
+        },
+        {
+          "Label": "msisadrv (msisadrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\msisadrv.sys, Статус: OK)"
+        },
+        {
+          "Label": "Представитель служб потоков Microsoft (MSKSSRV, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\MSKSSRV.sys, Статус: OK)"
+        },
+        {
+          "Label": "Протокол Microsoft LLDP (MsLldp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mslldp.sys, Статус: OK)"
+        },
+        {
+          "Label": "Посредник синхронизации потоков Microsoft (MSPCLOCK, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\MSPCLOCK.sys, Статус: OK)"
+        },
+        {
+          "Label": "Представитель диспетчера качества потоков Microsoft (MSPQM, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\MSPQM.sys, Статус: OK)"
+        },
+        {
+          "Label": "MsQuic (MsQuic, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\msquic.sys, Статус: OK)"
+        },
+        {
+          "Label": "MsRPC (MsRPC, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\MsRPC.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер Microsoft System Management BIOS (mssmbios, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mssmbios.sys, Статус: OK)"
+        },
+        {
+          "Label": "Преобразователь потоков Tee/Sink-to-Sink Microsoft (MSTEE, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\MSTEE.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft Input Configuration Driver (MTConfig, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\MTConfig.sys, Статус: OK)"
+        },
+        {
+          "Label": "Mup (Mup, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\mup.sys, Статус: OK)"
+        },
+        {
+          "Label": "mvumis (mvumis, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\mvumis.sys, Статус: OK)"
+        },
+        {
+          "Label": "Фильтр NativeWiFi (NativeWifiP, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\nwifi.sys, Статус: OK)"
+        },
+        {
+          "Label": "Служба NetworkDirect (ndfltr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ndfltr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Системный драйвер NDIS (NDIS, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ndis.sys, Статус: OK)"
+        },
+        {
+          "Label": "Захват Microsoft NDIS (NdisCap, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ndiscap.sys, Статус: OK)"
+        },
+        {
+          "Label": "Протокол мультиплексора сетевого адаптера (Майкрософт) (NdisImPlatform, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\NdisImPlatform.sys, Статус: OK)"
+        },
+        {
+          "Label": "NDIS-драйвер TAPI удаленного доступа (NdisTapi, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\ndistapi.sys, Статус: OK)"
+        },
+        {
+          "Label": "NDIS Usermode I/O Protocol (Ndisuio, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ndisuio.sys, Статус: OK)"
+        },
+        {
+          "Label": "Перечислитель виртуальных сетевых адаптеров (Майкрософт) (NdisVirtualBus, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\NdisVirtualBus.sys, Статус: OK)"
+        },
+        {
+          "Label": "NDIS-драйвер глобальной сети для удаленного доступа (NdisWan, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ndiswan.sys, Статус: OK)"
+        },
+        {
+          "Label": "Устаревшая версия NDIS-драйвера глобальной сети для удаленного доступа (ndiswanlegacy, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\ndiswan.sys, Статус: OK)"
+        },
+        {
+          "Label": "NDKPing Driver (NDKPing, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\NDKPing.sys, Статус: OK)"
+        },
+        {
+          "Label": "NDIS Proxy Driver (ndproxy, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\NDProxy.sys, Статус: OK)"
+        },
+        {
+          "Label": "Windows Network Data Usage Monitoring Driver (Ndu, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Ndu.sys, Статус: OK)"
+        },
+        {
+          "Label": "Network Adapter Wdf Class Extension Library (NetAdapterCx, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\NetAdapterCx.sys, Статус: OK)"
+        },
+        {
+          "Label": "NetBIOS Interface (NetBIOS, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\netbios.sys, Статус: OK)"
+        },
+        {
+          "Label": "NetBT (NetBT, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\netbt.sys, Статус: OK)"
+        },
+        {
+          "Label": "netvsc (netvsc, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\netvsc.sys, Статус: OK)"
+        },
+        {
+          "Label": "Npfs (Npfs, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Npfs.sys, Статус: OK)"
+        },
+        {
+          "Label": "Named pipe service trigger provider (npsvctrig, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\npsvctrig.sys, Статус: OK)"
+        },
+        {
+          "Label": "NSI Proxy Service Driver (nsiproxy, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\nsiproxy.sys, Статус: OK)"
+        },
+        {
+          "Label": "Ntfs (Ntfs, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Ntfs.sys, Статус: OK)"
+        },
+        {
+          "Label": "Null (Null, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Null.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер устройства (Майкрософт) NVDIMM (nvdimm, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\nvdimm.sys, Статус: OK)"
+        },
+        {
+          "Label": "nvlddmkm (nvlddmkm, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\nvam.inf_amd64_abccf9a242036197\\nvlddmkm.sys, Статус: OK)"
+        },
+        {
+          "Label": "nvraid (nvraid, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\nvraid.sys, Статус: OK)"
+        },
+        {
+          "Label": "nvstor (nvstor, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\nvstor.sys, Статус: OK)"
+        },
+        {
+          "Label": "Plan 9 Redirector Driver (P9Rdr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\p9rdr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер параллельного порта (Parport, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\parport.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер разделов (partmgr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\partmgr.sys, Статус: OK)"
+        },
+        {
+          "Label": "PassthroughParser (passthruparser, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\passthruparser.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер шины PCI (pci, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\pci.sys, Статус: OK)"
+        },
+        {
+          "Label": "pciide (pciide, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\pciide.sys, Статус: OK)"
+        },
+        {
+          "Label": "pcmcia (pcmcia, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\pcmcia.sys, Статус: OK)"
+        },
+        {
+          "Label": "Performance Counters for Windows Driver (pcw, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\pcw.sys, Статус: OK)"
+        },
+        {
+          "Label": "pdc (pdc, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\pdc.sys, Статус: OK)"
+        },
+        {
+          "Label": "PEAUTH (PEAUTH, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\peauth.sys, Статус: OK)"
+        },
+        {
+          "Label": "percsas2i (percsas2i, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\percsas2i.sys, Статус: OK)"
+        },
+        {
+          "Label": "percsas3i (percsas3i, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\percsas3i.sys, Статус: OK)"
+        },
+        {
+          "Label": "Packet Monitor Driver (PktMon, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\PktMon.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер диска энергонезависимой памяти (Майкрософт) (pmem, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\pmem.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер модуля памяти (Microsoft) (PNPMEM, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\pnpmem.sys, Статус: OK)"
+        },
+        {
+          "Label": "portcfg (portcfg, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\portcfg.sys, Статус: OK)"
+        },
+        {
+          "Label": "Мини-порт глобальной сети (PPTP) (PptpMiniport, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\raspptp.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер процессора (Processor, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\processr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Планировщик пакетов QoS (Psched, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\pacer.sys, Статус: OK)"
+        },
+        {
+          "Label": "pvhdparser (pvhdparser, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\pvhdparser.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер QWAVE (QWAVEdrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\qwavedrv.sys, Статус: OK)"
+        },
+        {
+          "Label": "Windows RAM Disk Driver (Ramdisk, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\ramdisk.sys, Статус: OK)"
+        },
+        {
+          "Label": "Remote Access Auto Connection Driver (RasAcd, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\rasacd.sys, Статус: OK)"
+        },
+        {
+          "Label": "Мини-порт глобальной сети (IKEv2) (RasAgileVpn, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\AgileVpn.sys, Статус: OK)"
+        },
+        {
+          "Label": "Мини-порт глобальной сети (L2TP) (Rasl2tp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\rasl2tp.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер PPPOE для удаленного доступа (RasPppoe, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\raspppoe.sys, Статус: OK)"
+        },
+        {
+          "Label": "Мини-порт глобальной сети (SSTP) (RasSstp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\rassstp.sys, Статус: OK)"
+        },
+        {
+          "Label": "Перенаправленная подсистема буферизации (rdbss, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\rdbss.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер шины перенаправителя устройств удаленных рабочих столов (rdpbus, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\rdpbus.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер перенаправителя устройств удаленных рабочих столов (RDPDR, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\rdpdr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Remote Desktop Video Miniport Driver (RdpVideoMiniport, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\rdpvideominiport.sys, Статус: OK)"
+        },
+        {
+          "Label": "ReadyBoost (rdyboost, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\rdyboost.sys, Статус: OK)"
+        },
+        {
+          "Label": "ReFS (ReFS, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ReFS.sys, Статус: OK)"
+        },
+        {
+          "Label": "ReFSv1 (ReFSv1, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ReFSv1.sys, Статус: OK)"
+        },
+        {
+          "Label": "Bluetooth Device (RFCOMM Protocol TDI) (RFCOMM, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\rfcomm.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер прокси-сервера центра ресурсов (rhproxy, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\rhproxy.sys, Статус: OK)"
+        },
+        {
+          "Label": "RsFx0600 Driver (RsFx0600, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\RsFx0600.sys, Статус: OK)"
+        },
+        {
+          "Label": "Отвечающее устройство обнаружения топологии канального уровня (rspndr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\rspndr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Realtek Bluetooth Filter Driver (RtkBtFilter, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\RtkBtfilter.sys, Статус: OK)"
+        },
+        {
+          "Label": "Realtek USB Card Reader - UER (RTSUER, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\RtsUer.sys, Статус: OK)"
+        },
+        {
+          "Label": "Realtek Wireless LAN 802.11n PCI-E Network Adapter (RTWlanE, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\rtwlane.sys, Статус: OK)"
+        },
+        {
+          "Label": "s3cap (s3cap, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vms3cap.sys, Статус: OK)"
+        },
+        {
+          "Label": "SBP-2 драйвер шины транспорт/протокол (sbp2port, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\sbp2port.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер фильтра смарт-карты класса PnP (scfilter, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\scfilter.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер Microsoft шины памяти класса хранилища (scmbus, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\scmbus.sys, Статус: OK)"
+        },
+        {
+          "Label": "sdbus (sdbus, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\sdbus.sys, Статус: OK)"
+        },
+        {
+          "Label": "Отражатель SDF (SDFRd, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\SDFRd.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер порта SD Storage (sdstor, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\sdstor.sys, Статус: OK)"
+        },
+        {
+          "Label": "Serial UART Support Library (SerCx, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\SerCx.sys, Статус: OK)"
+        },
+        {
+          "Label": "Serial UART Support Library (SerCx2, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\SerCx2.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер фильтра Serenum (Serenum, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\serenum.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер последовательного порта (Serial, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\serial.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер мыши для посл. порта (sermouse, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\sermouse.sys, Статус: OK)"
+        },
+        {
+          "Label": "Дисковод большой емкости (sfloppy, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\sfloppy.sys, Статус: OK)"
+        },
+        {
+          "Label": "SiSRaid2 (SiSRaid2, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\SiSRaid2.sys, Статус: OK)"
+        },
+        {
+          "Label": "SiSRaid4 (SiSRaid4, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\sisraid4.sys, Статус: OK)"
+        },
+        {
+          "Label": "SmartSAMD (SmartSAMD, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\SmartSAMD.sys, Статус: OK)"
+        },
+        {
+          "Label": "Acronis Snapshots Manager (snapman, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\snapman.sys, Статус: OK)"
+        },
+        {
+          "Label": "Space Parser (spaceparser, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\spaceparser.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер дискового пространства (spaceport, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\spaceport.sys, Статус: OK)"
+        },
+        {
+          "Label": "Holographic Spatial Graph Filter (SpatialGraphFilter, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\SpatialGraphFilter.sys, Статус: OK)"
+        },
+        {
+          "Label": "Simple Peripheral Bus Support Library (SpbCx, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\SpbCx.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер сервера Server SMB 2.xxx (srv2, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\srv2.sys, Статус: OK)"
+        },
+        {
+          "Label": "srvnet (srvnet, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\srvnet.sys, Статус: OK)"
+        },
+        {
+          "Label": "stexstor (stexstor, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\stexstor.sys, Статус: OK)"
+        },
+        {
+          "Label": "Стандартный драйвер SATA AHCI (Майкрософт) (storahci, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\storahci.sys, Статус: OK)"
+        },
+        {
+          "Label": "Ускоритель хранилища Microsoft Hyper-V (storflt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vmstorfl.sys, Статус: OK)"
+        },
+        {
+          "Label": "Стандартный драйвер NVM Express (Майкрософт) (stornvme, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\stornvme.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер-фильтр качества обслуживания хранилища (storqosflt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\storqosflt.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер для универсального флеш-накопителя (UFS) Microsoft (storufs, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\storufs.sys, Статус: OK)"
+        },
+        {
+          "Label": "storvsc (storvsc, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\storvsc.sys, Статус: OK)"
+        },
+        {
+          "Label": "storvsp (storvsp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\storvsp.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер программной шины (swenum, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\swenum.inf_amd64_16a14542b63c02af\\swenum.sys, Статус: OK)"
+        },
+        {
+          "Label": "Synth3dVsc (Synth3dVsc, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Synth3dVsc.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер протокола TCP/IP (Tcpip, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\tcpip.sys, Статус: OK)"
+        },
+        {
+          "Label": "@todo.dll,-100;Microsoft IPv6 Protocol Driver (Tcpip6, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\tcpip.sys, Статус: OK)"
+        },
+        {
+          "Label": "TCP/IP Registry Compatibility (tcpipreg, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\tcpipreg.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер поддержки NetIO Legacy TDI (tdx, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\tdx.sys, Статус: OK)"
+        },
+        {
+          "Label": "Служба телеметрии Intel(R) (Telemetry, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\IntelTA.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft Remote Desktop Input Driver (terminpt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\terminpt.sys, Статус: OK)"
+        },
+        {
+          "Label": "Acronis TIB Mounter (tib_mounter, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\tib_mounter.sys, Статус: OK)"
+        },
+        {
+          "Label": "TPM (TPM, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\tpm.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер-фильтр класса USB-концентратора удаленного рабочего стола (TsUsbFlt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\tsusbflt.sys, Статус: OK)"
+        },
+        {
+          "Label": "Универсальное USB-устройство удаленного рабочего стола (TsUsbGD, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\TsUsbGD.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер адаптера минипорта для туннеля (Майкрософт) (tunnel, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\tunnel.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер USB-устройства SCSI (UAS) (UASPStor, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\uaspstor.sys, Статус: OK)"
+        },
+        {
+          "Label": "USB Connector Manager KMDF Class Extension (UcmCx0101, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\UcmCx.sys, Статус: OK)"
+        },
+        {
+          "Label": "UCM-TCPCI KMDF Class Extension (UcmTcpciCx0101, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\UcmTcpciCx.sys, Статус: OK)"
+        },
+        {
+          "Label": "Клиент ACPI UCM-UCSI (UcmUcsiAcpiClient, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\UcmUcsiAcpiClient.sys, Статус: OK)"
+        },
+        {
+          "Label": "UCM-UCSI KMDF Class Extension (UcmUcsiCx0101, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\UcmUcsiCx.sys, Статус: OK)"
+        },
+        {
+          "Label": "UCPD (UCPD, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\UCPD.sys, Статус: OK)"
+        },
+        {
+          "Label": "USB Host Support Library (Ucx01000, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ucx01000.sys, Статус: OK)"
+        },
+        {
+          "Label": "USB Device Emulation Support Library (UdeCx, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\udecx.sys, Статус: OK)"
+        },
+        {
+          "Label": "udfs (udfs, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\udfs.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер UEFI (Майкрософт) (UEFI, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\uefi.inf_amd64_c1628ffa62c8e54c\\UEFI.sys, Статус: OK)"
+        },
+        {
+          "Label": "USB Function Class Extension (Ufx01000, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ufx01000.sys, Статус: OK)"
+        },
+        {
+          "Label": "USB-контроллер Chipidea (UfxChipidea, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\ufxchipidea.inf_amd64_1c78775fffab6a0a\\UfxChipidea.sys, Статус: OK)"
+        },
+        {
+          "Label": "USB-котроллер Synopsys (ufxsynopsys, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ufxsynopsys.sys, Статус: OK)"
+        },
+        {
+          "Label": "UMBus драйвер перечислителя (umbus, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\umbus.inf_amd64_b78a9c5b6fd62c27\\umbus.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер UMPass Microsoft (UmPass, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\umpass.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер с переключением ролей Chipidea USB (UrsChipidea, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\urschipidea.inf_amd64_78ad1c14e33df968\\urschipidea.sys, Статус: OK)"
+        },
+        {
+          "Label": "USB Role-Switch Support Library (UrsCx01000, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\urscx01000.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер с переключением ролей Synopsys USB (UrsSynopsys, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\urssynopsys.inf_amd64_057fa37902020500\\urssynopsys.sys, Статус: OK)"
+        },
+        {
+          "Label": "Аудио драйвер USB (WDM) (usbaudio, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usbaudio.sys, Статус: OK)"
+        },
+        {
+          "Label": "Служба USB Audio 2.0 (usbaudio2, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usbaudio2.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер универсального родительского устройства USB (Microsoft) (usbccgp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usbccgp.sys, Статус: OK)"
+        },
+        {
+          "Label": "eHome инфракрасный ресивер (USBCIR) (usbcir, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usbcir.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер минипорта Microsoft USB 2.0 расширенного хост-контроллера (usbehci, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usbehci.sys, Статус: OK)"
+        },
+        {
+          "Label": "Стандартный драйвер USB-концентратора (Майкрософт) (usbhub, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usbhub.sys, Статус: OK)"
+        },
+        {
+          "Label": "Концентратор SuperSpeed (USBHUB3, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\UsbHub3.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер минипорта Microsoft USB открытого хост-контроллера (usbohci, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usbohci.sys, Статус: OK)"
+        },
+        {
+          "Label": "Класс принтеров Microsoft USB (usbprint, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usbprint.sys, Статус: OK)"
+        },
+        {
+          "Label": "Адаптер USB RNDIS6 (usbrndis6, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usb80236.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер USB-сканера (usbscan, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usbscan.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер последовательного порта USB (Майкрософт) (usbser, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usbser.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер запоминающих устройств для USB (USBSTOR, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\USBSTOR.SYS, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер минипорта Microsoft USB универсального хост-контроллера (usbuhci, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\usbuhci.sys, Статус: OK)"
+        },
+        {
+          "Label": "USB-видеоустройство (WDM) (usbvideo, Путь",
+          "Value": "C:\\WINDOWS\\system32\\Drivers\\usbvideo.sys, Статус: OK)"
+        },
+        {
+          "Label": "xHCI-совместимый хост-контроллер USB (USBXHCI, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\USBXHCI.SYS, Статус: OK)"
+        },
+        {
+          "Label": "Перечислитель виртуальных дисков (Майкрософт) (vdrvroot, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vdrvroot.sys, Статус: OK)"
+        },
+        {
+          "Label": "Расширение средства проверки драйверов (VerifierExt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\VerifierExt.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft Azure VFP Switch Extension (VfpExt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vfpext.sys, Статус: OK)"
+        },
+        {
+          "Label": "vhdmp (vhdmp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vhdmp.sys, Статус: OK)"
+        },
+        {
+          "Label": "vhdparser (vhdparser, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vhdparser.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер платформы Virtual HID Framework (VHF) (vhf, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vhf.sys, Статус: OK)"
+        },
+        {
+          "Label": "Vid (Vid, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Vid.sys, Статус: OK)"
+        },
+        {
+          "Label": "Acronis Virtual File Driver (virtual_file, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\virtual_file.sys, Статус: OK)"
+        },
+        {
+          "Label": "VirtualRender (VirtualRender, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\vrd.inf_amd64_81fbd405ff2470fc\\vrd.sys, Статус: OK)"
+        },
+        {
+          "Label": "Шина VMBus (vmbus, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vmbus.sys, Статус: OK)"
+        },
+        {
+          "Label": "VMBusHID (VMBusHID, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\VMBusHID.sys, Статус: OK)"
+        },
+        {
+          "Label": "Поставщик шины виртуальной машины (vmbusr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vmbusr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер инфраструктуры гостей Microsoft Hyper-V (vmgid, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vmgid.sys, Статус: OK)"
+        },
+        {
+          "Label": "vmsmp (vmsmp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vmswitch.sys, Статус: OK)"
+        },
+        {
+          "Label": "VmSwitch NIC Proxy Driver (VMSNPXY, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\VmsProxyHNic.sys, Статус: OK)"
+        },
+        {
+          "Label": "VMSNPXYMP (VMSNPXYMP, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\VmsProxyHNic.sys, Статус: OK)"
+        },
+        {
+          "Label": "VmSwitch Protocol Driver (VMSP, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vmswitch.sys, Статус: OK)"
+        },
+        {
+          "Label": "VmSwitch Proxy Driver (VmsProxy, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\VmsProxy.sys, Статус: OK)"
+        },
+        {
+          "Label": "VmSwitch Extensibility Filter (VMSVSF, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vmswitch.sys, Статус: OK)"
+        },
+        {
+          "Label": "VmSwitch Extensibility Protocol (VMSVSP, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vmswitch.sys, Статус: OK)"
+        },
+        {
+          "Label": "Check Point Virtual Network Adapter - Apollo (vna_ap, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\vnaap.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер диспетчера томов (volmgr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\volmgr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Диспетчер динамических томов (volmgrx, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\volmgrx.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер теневого копирования тома (volsnap, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\volsnap.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер тома (volume, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\volume.sys, Статус: OK)"
+        },
+        {
+          "Label": "Acronis Volume Tracker (volume_tracker, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\volume_tracker.sys, Статус: OK)"
+        },
+        {
+          "Label": "Виртуальная шина PCI Microsoft Hyper-V (vpci, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vpci.sys, Статус: OK)"
+        },
+        {
+          "Label": "Сервер PCI Microsoft Hyper-V (vpcivsp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vpcivsp.sys, Статус: OK)"
+        },
+        {
+          "Label": "Zone Alarm Firewall Driver (vsdatant, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\vsdatant.sys, Статус: OK)"
+        },
+        {
+          "Label": "vsmraid (vsmraid, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vsmraid.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер RAID-контроллера запоминающего устройства VIA StorX для Windows (VSTXRAID, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vstxraid.sys, Статус: OK)"
+        },
+        {
+          "Label": "Virtual Wireless Bus Driver (vwifibus, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vwifibus.sys, Статус: OK)"
+        },
+        {
+          "Label": "Virtual WiFi Filter Driver (vwififlt, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vwififlt.sys, Статус: OK)"
+        },
+        {
+          "Label": "Virtual WiFi Miniport Service (vwifimp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\vwifimp.sys, Статус: OK)"
+        },
+        {
+          "Label": "Wacom - драйвер пера последовательного порта (WacomPen, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\wacompen.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер IP ARP для удаленного доступа (wanarp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\wanarp.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер IPv6 ARP для удаленного доступа (wanarpv6, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\wanarp.sys, Статус: OK)"
+        },
+        {
+          "Label": "Windows Container Isolation (wcifs, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\wcifs.sys, Статус: OK)"
+        },
+        {
+          "Label": "Windows Container Name Virtualization (wcnfs, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\wcnfs.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft WdAiNisDrv Driver (WdAiNisDrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\wd\\WdAiNisDrv.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер загрузки антивирусной программы Microsoft Defender (WdBoot, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\wd\\WdBoot.sys, Статус: OK)"
+        },
+        {
+          "Label": "Служба платформ драйвера режима ядра (Wdf01000, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Wdf01000.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер с функцией мини-фильтра в составе антивирусной программы Microsoft Defender (WdFilter, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\wd\\WdFilter.sys, Статус: OK)"
+        },
+        {
+          "Label": "WDI Driver Framework (wdiwifi, Путь",
+          "Value": "C:\\WINDOWS\\system32\\DRIVERS\\wdiwifi.sys, Статус: OK)"
+        },
+        {
+          "Label": "WdmCompanionFilter (WdmCompanionFilter, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\WdmCompanionFilter.sys, Статус: OK)"
+        },
+        {
+          "Label": "Системный драйвер проверки сети в составе антивирусной программы Microsoft Defender (WdNisDrv, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\wd\\WdNisDrv.sys, Статус: OK)"
+        },
+        {
+          "Label": "Платформа фильтрации Microsoft Windows (WFPLWFS, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\wfplwfs.sys, Статус: OK)"
+        },
+        {
+          "Label": "WIMMount (WIMMount, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\wimmount.sys, Статус: OK)"
+        },
+        {
+          "Label": "Windows Trusted Execution Environment Class Extension (WindowsTrustedRT, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\WindowsTrustedRT.sys, Статус: OK)"
+        },
+        {
+          "Label": "Служба безопасности доверенной среды выполнения Microsoft Windows (WindowsTrustedRTProxy, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\WindowsTrustedRTProxy.sys, Статус: OK)"
+        },
+        {
+          "Label": "Служба WinMad (WinMad, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\winmad.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер NAT Windows (WinNat, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\winnat.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер WinUsb (WINUSB, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\WinUsb.sys, Статус: OK)"
+        },
+        {
+          "Label": "Служба WinVerbs (WinVerbs, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\winverbs.sys, Статус: OK)"
+        },
+        {
+          "Label": "Microsoft Windows Management Interface for ACPI (WmiAcpi, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\wmiacpi.sys, Статус: OK)"
+        },
+        {
+          "Label": "Windows Overlay File System Filter Driver (Wof, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\Wof.sys, Статус: OK)"
+        },
+        {
+          "Label": "WPD Upper Class Filter Driver (WpdUpFltr, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\WpdUpFltr.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер WinSock IFS (ws2ifsl, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\ws2ifsl.sys, Статус: OK)"
+        },
+        {
+          "Label": "User Mode Driver Frameworks Platform Driver (WudfPf, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\WudfPf.sys, Статус: OK)"
+        },
+        {
+          "Label": "Windows Driver Foundation - User-mode Driver Framework Reflector (WUDFRd, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\WUDFRd.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер файловой системы WPD (WUDFWpdFs, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\WUDFRd.sys, Статус: OK)"
+        },
+        {
+          "Label": "WUDFWpdMtp (WUDFWpdMtp, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\WUDFRd.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер протокола игрового ввода Xbox (xboxgip, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\xboxgip.sys, Статус: OK)"
+        },
+        {
+          "Label": "Драйвер-фильтр HID XINPUT (xinputhid, Путь",
+          "Value": "C:\\WINDOWS\\system32\\drivers\\xinputhid.sys, Статус: OK)"
+        }
+      ]
+    },
+    {
+      "Title": "USB-устройства (WMI)",
+      "Rows": [
+        {
+          "Label": "USB‑устройства (PowerShell)",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "USB Composite Device"
+        },
+        {
+          "Label": "",
+          "Value": "USB Root Hub (USB 3.0)"
+        },
+        {
+          "Label": "",
+          "Value": "Realtek USB 2.0 Card Reader"
+        },
+        {
+          "Label": "",
+          "Value": "Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)"
+        }
+      ]
+    },
+    {
+      "Title": "Автозагрузка",
+      "Rows": [
+        {
+          "Label": "",
+          "Value": "=== ПРОГРАММЫ В АВТОЗАГРУЗКЕ ==="
+        },
+        {
+          "Label": "",
+          "Value": "Acronis"
+        },
+        {
+          "Label": "",
+          "Value": "OneDrive"
+        },
+        {
+          "Label": "",
+          "Value": "KLPkInst_38ad0524-7dab-47fb-ae9c-276571b748e5"
+        },
+        {
+          "Label": "",
+          "Value": "Microsoft"
+        },
+        {
+          "Label": "",
+          "Value": "YandexBrowserAutoLaunch_FE6355B8F4AECE4415A6D80C0AC8CB9B"
+        },
+        {
+          "Label": "",
+          "Value": "MediaGet2"
+        },
+        {
+          "Label": "",
+          "Value": "MicrosoftEdgeAutoLaunch_82BFA80A6E50F52B629CFC7E9583668A"
+        }
+      ]
+    },
+    {
+      "Title": "Процессы",
+      "Rows": [
+        {
+          "Label": "Процессы — топ-10 по CPU",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "Имя          PID CPU(сек) RAM(МБ)"
+        },
+        {
+          "Label": "",
+          "Value": "---          --- -------- -------"
+        },
+        {
+          "Label": "",
+          "Value": "browser    13232   1743,8     324"
+        },
+        {
+          "Label": "",
+          "Value": "mbbService  5248   1052,8       7"
+        },
+        {
+          "Label": "",
+          "Value": "MsMpEng     5836   1037,2     345"
+        },
+        {
+          "Label": "",
+          "Value": "dwm         1776    731,1      69"
+        },
+        {
+          "Label": "",
+          "Value": "System         4    614,6       0"
+        },
+        {
+          "Label": "",
+          "Value": "WINWORD     9684    606,7     124"
+        },
+        {
+          "Label": "",
+          "Value": "browser    12532    480,2     272"
+        },
+        {
+          "Label": "",
+          "Value": "explorer   11244    477,7     180"
+        },
+        {
+          "Label": "",
+          "Value": "notepad++  10628    326,4      67"
+        },
+        {
+          "Label": "",
+          "Value": "erl         7840    301,8      55"
+        },
+        {
+          "Label": "Процессы — топ-10 по памяти",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "Имя                  PID RAM(МБ)"
+        },
+        {
+          "Label": "",
+          "Value": "---                  --- -------"
+        },
+        {
+          "Label": "",
+          "Value": "Memory Compression  2952     493"
+        },
+        {
+          "Label": "",
+          "Value": "MsMpEng             5836     363"
+        },
+        {
+          "Label": "",
+          "Value": "browser            13232     324"
+        },
+        {
+          "Label": "",
+          "Value": "browser            12532     272"
+        },
+        {
+          "Label": "",
+          "Value": "chkdsk              6368     224"
+        },
+        {
+          "Label": "",
+          "Value": "explorer           11244     180"
+        },
+        {
+          "Label": "",
+          "Value": "browser             8056     175"
+        },
+        {
+          "Label": "",
+          "Value": "Registry             116     143"
+        },
+        {
+          "Label": "",
+          "Value": "WINWORD             9684     124"
+        },
+        {
+          "Label": "",
+          "Value": "SearchApp          10688     112"
+        }
+      ]
+    },
+    {
+      "Title": "Службы",
+      "Rows": [
+        {
+          "Label": "Службы — сводка",
+          "Value": ""
+        },
+        {
+          "Label": "Всего служб",
+          "Value": "304 | Запущено: 135 | Остановлено: 169"
+        },
+        {
+          "Label": "Службы с автозапуском, не запустившиеся с ошибкой",
+          "Value": "не обнаружены"
+        }
+      ]
+    },
+    {
+      "Title": "Обновления ОС",
+      "Rows": [
+        {
+          "Label": "Обновления ОС",
+          "Value": ""
+        },
+        {
+          "Label": "Всего обновлений в системе",
+          "Value": "55"
+        },
+        {
+          "Label": "",
+          "Value": "Обновление Тип             Дата"
+        },
+        {
+          "Label": "",
+          "Value": "---------- ---             ----"
+        },
+        {
+          "Label": "",
+          "Value": "KB5126256  Security Update 16.09.2026"
+        },
+        {
+          "Label": "",
+          "Value": "KB5072653  Security Update 26.11.2025"
+        },
+        {
+          "Label": "",
+          "Value": "KB5066791  Security Update 24.11.2025"
+        },
+        {
+          "Label": "",
+          "Value": "KB5066130  Update          23.11.2025"
+        },
+        {
+          "Label": "",
+          "Value": "KB5066790  Security Update 23.11.2025"
+        },
+        {
+          "Label": "",
+          "Value": "KB5063261  Update          31.08.2025"
+        },
+        {
+          "Label": "",
+          "Value": "KB5063706  Security Update 10.08.2025"
+        },
+        {
+          "Label": "",
+          "Value": "KB5054682  Update          04.05.2025"
+        },
+        {
+          "Label": "",
+          "Value": "KB5050111  Update          02.03.2025"
+        },
+        {
+          "Label": "",
+          "Value": "KB5050388  Security Update 02.02.2025"
+        }
+      ]
+    },
+    {
+      "Title": "Целостность системы",
+      "Rows": [
+        {
+          "Label": "",
+          "Value": "=== ПРОВЕРКА ЦЕЛОСТНОСТИ СИСТЕМНЫХ ФАЙЛОВ ==="
+        },
+        {
+          "Label": "",
+          "Value": "Запуск sfc /scannow..."
+        },
+        {
+          "Label": "",
+          "Value": "(Это может занять 5-15 минут. Требуются права администратора)"
+        },
+        {
+          "Label": "",
+          "Value": "Начато сканирование системы.  Этот процесс может занять некоторое время."
+        },
+        {
+          "Label": "",
+          "Value": "Начало стадии проверки при сканировании системы."
+        },
+        {
+          "Label": "",
+          "Value": "Проверка 100% завершена."
+        },
+        {
+          "Label": "",
+          "Value": "Защита ресурсов Windows не обнаружила нарушений целостности."
+        }
+      ]
+    },
+    {
+      "Title": "Скорость интернета",
+      "Rows": [
+        {
+          "Label": "",
+          "Value": "=== ТЕСТ СКОРОСТИ ИНТЕРНЕТА ==="
+        },
+        {
+          "Label": "",
+          "Value": "Скачан тестовый файл 100 МБ за 46.97 сек."
+        },
+        {
+          "Label": "Средняя скорость",
+          "Value": "17.03 Мбит/с"
+        },
+        {
+          "Label": "Пинг Yandex DNS",
+          "Value": "Успех. Среднее время: 33 мс"
+        },
+        {
+          "Label": "Пинг Google DNS",
+          "Value": "Успех. Среднее время: 35 мс"
+        }
+      ]
+    },
+    {
+      "Title": "Звуковые устройства",
+      "Rows": [
+        {
+          "Label": "Звуковые устройства (PowerShell)",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "Microphone (Realtek(R) Audio)"
+        },
+        {
+          "Label": "",
+          "Value": "Динамики (Realtek(R) Audio)"
+        }
+      ]
+    },
+    {
+      "Title": "Проверка файловой системы",
+      "Rows": [
+        {
+          "Label": "Проверка файловой системы (chkdsk, режим только чтения)",
+          "Value": ""
+        },
+        {
+          "Label": "Безопасно",
+          "Value": "ошибки не исправляются, диск только анализируется."
+        },
+        {
+          "Label": "Диск C",
+          "Value": ":"
+        },
+        {
+          "Label": "",
+          "Value": "1623808 file records processed."
+        },
+        {
+          "Label": "",
+          "Value": "28609 large file records processed."
+        },
+        {
+          "Label": "",
+          "Value": "0 bad file records processed."
+        },
+        {
+          "Label": "",
+          "Value": "3553 reparse records processed."
+        },
+        {
+          "Label": "",
+          "Value": "0 unindexed files recovered to lost and found."
+        },
+        {
+          "Label": "Phase duration (Orphan recovery to lost and found)",
+          "Value": "0.64 milliseconds."
+        },
+        {
+          "Label": "",
+          "Value": "3553 reparse records processed."
+        },
+        {
+          "Label": "",
+          "Value": "Windows has scanned the file system and found no problems."
+        }
+      ]
+    },
+    {
+      "Title": "Износ SSD (TBW)",
+      "Rows": [
+        {
+          "Label": "Износ SSD (объём записи по SMART)",
+          "Value": ""
+        },
+        {
+          "Label": "Диск /dev/sda ()",
+          "Value": ""
+        },
+        {
+          "Label": "Записано за жизнь (TBW)",
+          "Value": "3.72 ТБ"
+        }
+      ]
+    },
+    {
+      "Title": "Фрагментация",
+      "Rows": [
+        {
+          "Label": "Анализ фрагментации (defrag /A — только анализ)",
+          "Value": ""
+        },
+        {
+          "Label": "Диск C",
+          "Value": ":"
+        },
+        {
+          "Label": "Invoking analysis on OS (C",
+          "Value": ")..."
+        },
+        {
+          "Label": "",
+          "Value": "The operation completed successfully."
+        },
+        {
+          "Label": "Post Defragmentation Report",
+          "Value": ""
+        },
+        {
+          "Label": "Volume Information",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "Volume size                 = 952.85 GB"
+        },
+        {
+          "Label": "",
+          "Value": "Cluster size                = 4 KB"
+        },
+        {
+          "Label": "",
+          "Value": "Used space                  = 317.68 GB"
+        },
+        {
+          "Label": "",
+          "Value": "Free space                  = 635.16 GB"
+        },
+        {
+          "Label": "Fragmentation",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "Total fragmented space      = 0%"
+        },
+        {
+          "Label": "",
+          "Value": "Average fragments per file  = 1.00"
+        },
+        {
+          "Label": "",
+          "Value": "Movable files and folders   = 911366"
+        },
+        {
+          "Label": "",
+          "Value": "Unmovable files and folders = 10"
+        },
+        {
+          "Label": "Files",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "Fragmented files            = 338"
+        },
+        {
+          "Label": "",
+          "Value": "Total file fragments        = 877"
+        },
+        {
+          "Label": "Folders",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "Total folders               = 88312"
+        },
+        {
+          "Label": "",
+          "Value": "Fragmented folders          = 6"
+        },
+        {
+          "Label": "",
+          "Value": "Total folder fragments      = 7"
+        },
+        {
+          "Label": "Free space",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "Free space count            = 70626"
+        },
+        {
+          "Label": "",
+          "Value": "Average free space size     = 9.28 MB"
+        },
+        {
+          "Label": "",
+          "Value": "Largest free space size     = 575.58 GB"
+        },
+        {
+          "Label": "Master File Table (MFT)",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "MFT size                    = 1.54 GB"
+        },
+        {
+          "Label": "",
+          "Value": "MFT record count            = 1623807"
+        },
+        {
+          "Label": "",
+          "Value": "MFT usage                   = 100%"
+        },
+        {
+          "Label": "",
+          "Value": "Total MFT fragments         = 13"
+        },
+        {
+          "Label": "Note",
+          "Value": "File fragments larger than 64MB are not included in the fragmentation statistics."
+        },
+        {
+          "Label": "",
+          "Value": "You do not need to defragment this volume."
+        },
+        {
+          "Label": "Примечание",
+          "Value": "для SSD фрагментация не влияет на производительность, дефрагментация не нужна и изнашивает ячейки."
+        }
+      ]
+    },
+    {
+      "Title": "Случайный доступ 4K",
+      "Rows": [
+        {
+          "Label": "Тест случайного доступа 4K (3 сек запись + 3 сек чтение)",
+          "Value": ""
+        },
+        {
+          "Label": "Диск C",
+          "Value": ":"
+        },
+        {
+          "Label": "Случайная запись",
+          "Value": "6.09 МБ/с"
+        },
+        {
+          "Label": "Случайное чтение",
+          "Value": "61.78 МБ/с"
+        }
+      ]
+    },
+    {
+      "Title": "Traceroute",
+      "Rows": [
+        {
+          "Label": "Traceroute до 8.8.8.8 (без разрешения имён, до 12 прыжков)",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "Tracing route to 8.8.8.8 over a maximum of 12 hops"
+        },
+        {
+          "Label": "",
+          "Value": "1     *        *      149 ms  192.168.0.1"
+        },
+        {
+          "Label": "",
+          "Value": "2     *       15 ms    57 ms  10.2.51.11"
+        },
+        {
+          "Label": "",
+          "Value": "3     *        *        *     Request timed out."
+        },
+        {
+          "Label": "",
+          "Value": "4     8 ms    15 ms    54 ms  10.2.52.10"
+        },
+        {
+          "Label": "",
+          "Value": "5     9 ms    72 ms    42 ms  95.83.152.233"
+        },
+        {
+          "Label": "",
+          "Value": "6    15 ms    89 ms    67 ms  95.83.175.33"
+        },
+        {
+          "Label": "",
+          "Value": "7     *      204 ms     *     93.189.8.89"
+        },
+        {
+          "Label": "",
+          "Value": "8    10 ms    34 ms    24 ms  172.16.254.97"
+        },
+        {
+          "Label": "",
+          "Value": "9     *       16 ms   128 ms  172.16.254.97"
+        },
+        {
+          "Label": "",
+          "Value": "10     7 ms    11 ms    19 ms  188.43.239.38"
+        },
+        {
+          "Label": "",
+          "Value": "11     *       19 ms   370 ms  188.43.3.142"
+        },
+        {
+          "Label": "",
+          "Value": "12    25 ms    16 ms   203 ms  188.43.3.141"
+        },
+        {
+          "Label": "",
+          "Value": "Trace complete."
+        }
+      ]
+    },
+    {
+      "Title": "Открытые порты",
+      "Rows": [
+        {
+          "Label": "Открытые порты (localhost)",
+          "Value": "найдено 4 из 24 проверенных"
+        },
+        {
+          "Label": "",
+          "Value": "Порт    Служба"
+        },
+        {
+          "Label": "",
+          "Value": "3306    MySQL"
+        },
+        {
+          "Label": "",
+          "Value": "8080    HTTP-alt"
+        },
+        {
+          "Label": "",
+          "Value": "445     SMB"
+        },
+        {
+          "Label": "",
+          "Value": "135     RPC"
+        }
+      ]
+    },
+    {
+      "Title": "Активные соединения",
+      "Rows": [
+        {
+          "Label": "Активные TCP-соединения",
+          "Value": ""
+        },
+        {
+          "Label": "Established",
+          "Value": "92"
+        },
+        {
+          "Label": "TimeWait",
+          "Value": "86"
+        },
+        {
+          "Label": "Bound",
+          "Value": "56"
+        },
+        {
+          "Label": "Listen",
+          "Value": "51"
+        },
+        {
+          "Label": "SynSent",
+          "Value": "1"
+        },
+        {
+          "Label": "CloseWait",
+          "Value": "1"
+        },
+        {
+          "Label": "Установленные соединения (кто с кем общается)",
+          "Value": ""
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "49721  \u003c-  aakore"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "9999  \u003c-  adp-agent"
+        },
+        {
+          "Label": "213.180.193.234",
+          "Value": "443  \u003c-  browser"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "9999  \u003c-  monitoring-mini"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "9999  \u003c-  mms_mini"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "49684  \u003c-  TracSrvWrapper"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "49681  \u003c-  schedul2"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "49685  \u003c-  TracSrvWrapper"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "49677  \u003c-  schedul2"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "49678  \u003c-  schedul2"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "49680  \u003c-  schedul2"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "49682  \u003c-  schedul2"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "49679  \u003c-  schedul2"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "49717  \u003c-  mms_mini"
+        },
+        {
+          "Label": "127.0.0.1",
+          "Value": "49718  \u003c-  mms_mini"
+        }
+      ]
+    },
+    {
+      "Title": "DNS-диагностика",
+      "Rows": [
+        {
+          "Label": "Диагностика DNS",
+          "Value": ""
+        },
+        {
+          "Label": "DNS-серверы",
+          "Value": ""
+        },
+        {
+          "Label": "Интерфейс Ethernet 3",
+          "Value": "10.2.53.86, 10.2.53.94, 10.7.21.14"
+        },
+        {
+          "Label": "Интерфейс Беспроводная сеть",
+          "Value": "192.168.0.1"
+        },
+        {
+          "Label": "Проверка распознавания имён",
+          "Value": ""
+        },
+        {
+          "Label": "",
+          "Value": "ya.ru        5.255.255.242, 77.88.44.242, 77.88.55.242"
+        },
+        {
+          "Label": "",
+          "Value": "google.com   64.233.165.138, 64.233.165.102, 64.233.165.101"
+        },
+        {
+          "Label": "",
+          "Value": "github.com   140.82.121.4"
+        }
+      ]
+    },
+    {
+      "Title": "S.M.A.R.T. — /dev/sda",
+      "Rows": [
+        {
+          "Label": "Модель",
+          "Value": "KINGSTON SKC6001024G"
+        },
+        {
+          "Label": "Серийный номер",
+          "Value": "50026B7687448F1C"
+        },
+        {
+          "Label": "Прошивка",
+          "Value": "S4800116"
+        },
+        {
+          "Label": "Ёмкость",
+          "Value": "954 ГБ"
+        },
+        {
+          "Label": "SMART",
+          "Value": "PASSED (диск здоров)"
+        },
+        {
+          "Label": "Температура",
+          "Value": "37°C"
+        },
+        {
+          "Label": "Время работы",
+          "Value": "1398 часов"
+        },
+        {
+          "Label": "Циклов включения",
+          "Value": "396"
+        },
+        {
+          "Label": "Износ SSD",
+          "Value": "1%"
+        },
+        {
+          "Label": "Остаток ресурса",
+          "Value": "99%"
+        },
+        {
+          "Label": "SSD Life Left",
+          "Value": "99%"
+        },
+        {
+          "Label": "Переназначенные сектора",
+          "Value": "0"
+        },
+        {
+          "Label": "Ошибки передачи (UDMA CRC)",
+          "Value": "1"
+        }
+      ]
+    },
+    {
+      "Title": "Тест скорости диска",
+      "Rows": [
+        {
+          "Label": "Запись",
+          "Value": "713.53 МБ/с | Чтение: 1159.56 МБ/с"
+        }
+      ]
+    }
+  ]
+}

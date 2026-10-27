@@ -1,0 +1,670 @@
+ОТЧЁТ ДИАГНОСТИКИ ПК
+Дата: 2026-10-19 16:09:04
+ОС: windows (amd64)
+
+Диски:
+Точка монтирования: C:
+    Тип файловой системы: NTFS
+    Всего: 952.85 ГБ
+    Свободно: 669.63 ГБ (70.28%)
+    Использовано: 283.22 ГБ (29.72%)
+---
+
+Память:
+Всего оперативной памяти (RAM): 7.83 ГБ
+  Свободно (Free): 3.06 ГБ
+  Доступно (Available, включая кэши): 3.06 ГБ
+  Используется RAM: 60.00%
+
+  Файл подкачки (pagefile):
+    Всего: 12.08 ГБ
+    Использовано: 6.90 ГБ
+    Использование: 57.11%
+---
+
+Сеть:
+10.2.53.86
+    10.2.53.94
+    10.7.21.14
+    192.168.1.1
+---
+
+Процессор:
+Архитектура: amd64
+Количество ядер: 4
+ОС: windows
+---
+
+Видеокарта:
+Название: NVIDIA GeForce MX110
+    Видеопамять: 2048 МБ
+    Версия драйвера: 27.21.14.6231
+  Видеокарта 2:
+    Название: Intel(R) UHD Graphics 605
+    Видеопамять: 1024 МБ
+    Версия драйвера: 27.20.100.8681
+---
+
+Температура компонентов:
+Температура (Thermal Zone): 48.1°C
+---
+
+=== РАСШИРЕННАЯ ИНФОРМАЦИЯ ===
+
+Вентиляторы и напряжения: поставщик данных не найден.
+Стандартный WMI Windows не отдаёт обороты вентиляторов и напряжения.
+Установите LibreHardwareMonitor (github.com/LibreHardwareMonitor/LibreHardwareMonitor),
+запустите его от имени администратора и включите Options → Enable WMI.
+После этого LibreHardwareMonitor должен оставаться запущенным на время диагностики.
+Диски (PowerShell):
+  Number       : 0
+  Size         : 1024209543168
+  FriendlyName : KINGSTON SKC6001024G
+Материнская плата: не удалось получить информацию
+Установленные драйверы (WMI):
+  1394 OHCI-совместимый хост-контроллер (1394ohci, Путь: C:\WINDOWS\system32\drivers\1394ohci.sys, Статус: OK)
+  3ware (3ware, Путь: C:\WINDOWS\system32\drivers\3ware.sys, Статус: OK)
+  Драйвер Microsoft ACPI (ACPI, Путь: C:\WINDOWS\system32\drivers\ACPI.sys, Статус: OK)
+  Драйвер устройств с ACPI (AcpiDev, Путь: C:\WINDOWS\system32\drivers\AcpiDev.sys, Статус: OK)
+  Microsoft ACPIEx Driver (acpiex, Путь: C:\WINDOWS\system32\Drivers\acpiex.sys, Статус: OK)
+  Драйвер агрегатора процессора ACPI (acpipagr, Путь: C:\WINDOWS\system32\drivers\acpipagr.sys, Статус: OK)
+  Драйвер устройства измерения мощности ACPI (AcpiPmi, Путь: C:\WINDOWS\system32\drivers\acpipmi.sys, Статус: OK)
+  Драйвер ACPI Wake Alarm (acpitime, Путь: C:\WINDOWS\system32\drivers\acpitime.sys, Статус: OK)
+  Acx01000 (Acx01000, Путь: C:\WINDOWS\system32\drivers\Acx01000.sys, Статус: OK)
+  ADP80XX (ADP80XX, Путь: C:\WINDOWS\system32\drivers\ADP80XX.SYS, Статус: OK)
+  Драйвер дополнительных функций для Winsock (AFD, Путь: C:\WINDOWS\system32\drivers\afd.sys, Статус: OK)
+  afunix (afunix, Путь: C:\WINDOWS\system32\drivers\afunix.sys, Статус: OK)
+  Application Compatibility Cache (ahcache, Путь: C:\WINDOWS\system32\DRIVERS\ahcache.sys, Статус: OK)
+  aksdf (aksdf, Путь: \??\C:\WINDOWS\system32\drivers\aksdf.sys, Статус: OK)
+  aksfridge (aksfridge, Путь: \??\C:\WINDOWS\system32\drivers\aksfridge.sys, Статус: OK)
+  Драйвер GPIO-клиента AMD (amdgpio2, Путь: C:\WINDOWS\system32\drivers\amdgpio2.sys, Статус: OK)
+  Служба контроллера I2C AMD (amdi2c, Путь: C:\WINDOWS\system32\drivers\amdi2c.sys, Статус: OK)
+  AMD K8 драйвер процессора (AmdK8, Путь: C:\WINDOWS\system32\drivers\amdk8.sys, Статус: OK)
+  Драйвер процессора AMD (AmdPPM, Путь: C:\WINDOWS\system32\drivers\amdppm.sys, Статус: OK)
+  amdsata (amdsata, Путь: C:\WINDOWS\system32\drivers\amdsata.sys, Статус: OK)
+  amdsbs (amdsbs, Путь: C:\WINDOWS\system32\drivers\amdsbs.sys, Статус: OK)
+  amdxata (amdxata, Путь: C:\WINDOWS\system32\drivers\amdxata.sys, Статус: OK)
+  Драйвер AppID (AppID, Путь: C:\WINDOWS\system32\drivers\appid.sys, Статус: OK)
+  Драйвер фильтра Smartlocker (applockerfltr, Путь: C:\WINDOWS\system32\drivers\applockerfltr.sys, Статус: OK)
+  Adaptec SAS/SATA-II RAID - драйвер минипорта Storport (arcsas, Путь: C:\WINDOWS\system32\drivers\arcsas.sys, Статус: OK)
+  ASUS Touch Service (AsusPTPDrv, Путь: C:\WINDOWS\system32\drivers\AsusPTPFilter.sys, Статус: OK)
+  Драйвер асинхронного носителя RAS (AsyncMac, Путь: C:\WINDOWS\system32\drivers\asyncmac.sys, Статус: OK)
+  Канал IDE (atapi, Путь: C:\WINDOWS\system32\drivers\atapi.sys, Статус: OK)
+  ATKWMIACPI Driver (ATKWMIACPIIO, Путь: \??\C:\Program Files (x86)\ASUS\ATK Package\ATK WMIACPI\atkwmiacpi64.sys, Статус: OK)
+  Сетевой адаптер VBD QLogic (b06bdrv, Путь: C:\WINDOWS\system32\drivers\bxvbda.sys, Статус: OK)
+  Background Activity Moderator Driver (bam, Путь: C:\WINDOWS\system32\drivers\bam.sys, Статус: OK)
+  BasicDisplay (BasicDisplay, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\basicdisplay.inf_amd64_19e58b6267591a82\BasicDisplay.sys, Статус: OK)
+  BasicRender (BasicRender, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\basicrender.inf_amd64_eebb5a8467eb88ec\BasicRender.sys, Статус: OK)
+  bcmfn2 Service (bcmfn2, Путь: C:\WINDOWS\system32\drivers\bcmfn2.sys, Статус: OK)
+  Beep (Beep, Путь: C:\WINDOWS\system32\drivers\Beep.sys, Статус: OK)
+  Windows Bind Filter Driver (bindflt, Путь: C:\WINDOWS\system32\drivers\bindflt.sys, Статус: OK)
+  Браузер (bowser, Путь: C:\WINDOWS\system32\DRIVERS\bowser.sys, Статус: OK)
+  Microsoft Bluetooth A2dp driver (BthA2dp, Путь: C:\WINDOWS\system32\drivers\BthA2dp.sys, Статус: OK)
+  Служба перечислителя Bluetooth (BthEnum, Путь: C:\WINDOWS\system32\drivers\BthEnum.sys, Статус: OK)
+  Драйвер профиля гарнитуры Microsoft Bluetooth (BthHFEnum, Путь: C:\WINDOWS\system32\drivers\bthhfenum.sys, Статус: OK)
+  Драйвер Bluetooth с низким энергопотреблением (BthLEEnum, Путь: C:\WINDOWS\system32\drivers\Microsoft.Bluetooth.Legacy.LEEnumerator.sys, Статус: OK)
+  Драйвер радио Bluetooth (BthMini, Путь: C:\WINDOWS\system32\drivers\BTHMINI.sys, Статус: OK)
+  Драйвер связи Bluetooth-модема (BTHMODEM, Путь: C:\WINDOWS\system32\drivers\bthmodem.sys, Статус: OK)
+  Устройства Bluetooth (личной сети) (BthPan, Путь: C:\WINDOWS\system32\drivers\bthpan.sys, Статус: OK)
+  Драйвер порта Bluetooth (BTHPORT, Путь: C:\WINDOWS\system32\drivers\BTHport.sys, Статус: OK)
+  Драйвер порта USB радиомодуля Bluetooth (BTHUSB, Путь: C:\WINDOWS\system32\drivers\BTHUSB.sys, Статус: OK)
+  Фильтр Microsoft Hyper-V VHDPMEM BTT (bttflt, Путь: C:\WINDOWS\system32\drivers\bttflt.sys, Статус: OK)
+  Служба для устройств контроля переносных устройств (buttonconverter, Путь: C:\WINDOWS\system32\drivers\buttonconverter.sys, Статус: OK)
+  Драйвер вынесения решения по оплате (CAD, Путь: C:\WINDOWS\system32\drivers\CAD.sys, Статус: OK)
+  CD/DVD File System Reader (cdfs, Путь: C:\WINDOWS\system32\DRIVERS\cdfs.sys, Статус: OK)
+  Драйвер CD-ROM дисковода (cdrom, Путь: C:\WINDOWS\system32\drivers\cdrom.sys, Статус: OK)
+  cht4iscsi (cht4iscsi, Путь: C:\WINDOWS\system32\drivers\cht4sx64.sys, Статус: OK)
+  Драйвер виртуальной шины Chelsio (cht4vbd, Путь: C:\WINDOWS\system32\drivers\cht4vx64.sys, Статус: OK)
+  CimFS (CimFS, Путь: C:\WINDOWS\system32\drivers\CimFS.sys, Статус: OK)
+  Потребительские ИК-устройства (circlass, Путь: C:\WINDOWS\system32\drivers\circlass.sys, Статус: OK)
+  Windows Cloud Files Filter Driver (CldFlt, Путь: C:\WINDOWS\system32\drivers\cldflt.sys, Статус: OK)
+  Common Log (CLFS) (CLFS, Путь: C:\WINDOWS\system32\drivers\CLFS.sys, Статус: OK)
+  Драйвер батареи с ACPI-управлением (Майкрософт) (CmBatt, Путь: C:\WINDOWS\system32\drivers\CmBatt.sys, Статус: OK)
+  CNG (CNG, Путь: C:\WINDOWS\system32\Drivers\cng.sys, Статус: OK)
+  CNG Hardware Assist algorithm provider (cnghwassist, Путь: C:\WINDOWS\system32\DRIVERS\cnghwassist.sys, Статус: OK)
+  Драйвер перечислителя композитной шины (CompositeBus, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\compositebus.inf_amd64_7500cffa210c6946\CompositeBus.sys, Статус: OK)
+  Console Driver (condrv, Путь: C:\WINDOWS\system32\drivers\condrv.sys, Статус: OK)
+  Desktop Activity Moderator Driver (dam, Путь: C:\WINDOWS\system32\drivers\dam.sys, Статус: OK)
+  Драйвер клиента пространства имен DFS (Dfsc, Путь: C:\WINDOWS\system32\Drivers\dfsc.sys, Статус: OK)
+  Драйвер диска (disk, Путь: C:\WINDOWS\system32\drivers\disk.sys, Статус: OK)
+  dmvsc (dmvsc, Путь: C:\WINDOWS\system32\drivers\dmvsc.sys, Статус: OK)
+  dptf_acpi (dptf_acpi, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\dptf_acpi.inf_amd64_5989fd2721678bab\dptf_acpi.sys, Статус: OK)
+  dptf_cpu (dptf_cpu, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4a3ae74cfa6c37d6\dptf_cpu.sys, Статус: OK)
+  Доверенные аудиодрайверы Майкрософт (drmkaud, Путь: C:\WINDOWS\system32\drivers\drmkaud.sys, Статус: OK)
+  LDDM Graphics Subsystem (DXGKrnl, Путь: C:\WINDOWS\system32\drivers\dxgkrnl.sys, Статус: OK)
+  Адаптер QLogic 10 Gigabit Ethernet VBD (ebdrv, Путь: C:\WINDOWS\system32\drivers\evbda.sys, Статус: OK)
+  Enhanced Storage Filter Driver (EhStorClass, Путь: C:\WINDOWS\system32\drivers\EhStorClass.sys, Статус: OK)
+  Драйвер Майкрософт для запоминающих устройств, поддерживающих протоколы IEEE 1667 и TCG (EhStorTcgDrv, Путь: C:\WINDOWS\system32\drivers\EhStorTcgDrv.sys, Статус: OK)
+  Microsoft Hardware Error Device Driver (ErrDev, Путь: C:\WINDOWS\system32\drivers\errdev.sys, Статус: OK)
+  esif_lf (esif_lf, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\dptf_cpu.inf_amd64_4a3ae74cfa6c37d6\esif_lf.sys, Статус: OK)
+  exFAT File System Driver (exfat, Путь: C:\WINDOWS\system32\drivers\exfat.sys, Статус: OK)
+  FAT12/16/32 File System Driver (fastfat, Путь: C:\WINDOWS\system32\drivers\fastfat.sys, Статус: OK)
+  Драйвер контроллера гибких дисков (fdc, Путь: C:\WINDOWS\system32\drivers\fdc.sys, Статус: OK)
+  Acronis File Protector Driver (file_protector, Путь: C:\WINDOWS\system32\DRIVERS\file_protector.sys, Статус: OK)
+  Acronis File Tracker Driver (file_tracker, Путь: C:\WINDOWS\system32\DRIVERS\file_tracker.sys, Статус: OK)
+  FileCrypt (FileCrypt, Путь: C:\WINDOWS\system32\drivers\filecrypt.sys, Статус: OK)
+  File Information FS MiniFilter (FileInfo, Путь: C:\WINDOWS\system32\drivers\fileinfo.sys, Статус: OK)
+  Filetrace (Filetrace, Путь: C:\WINDOWS\system32\drivers\filetrace.sys, Статус: OK)
+  Драйвер дисковода гибких дисков (flpydisk, Путь: C:\WINDOWS\system32\drivers\flpydisk.sys, Статус: OK)
+  Диспетчер фильтров (FltMgr, Путь: C:\WINDOWS\system32\drivers\fltmgr.sys, Статус: OK)
+  Acronis Storage Filter Management (fltsrv, Путь: C:\WINDOWS\system32\DRIVERS\fltsrv.sys, Статус: OK)
+  File System Dependency Minifilter (FsDepends, Путь: C:\WINDOWS\system32\drivers\FsDepends.sys, Статус: OK)
+  Драйвер фильтра шифрования диска BitLocker (fvevol, Путь: C:\WINDOWS\system32\DRIVERS\fvevol.sys, Статус: OK)
+  Счетчик создания Microsoft Hyper-V (gencounter, Путь: C:\WINDOWS\system32\drivers\vmgencounter.sys, Статус: OK)
+  Общий класс функции USB (genericusbfn, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\genericusbfn.inf_amd64_53931f0ae21d6d2c\genericusbfn.sys, Статус: OK)
+  Microsoft GPIO Class Extension Driver (GPIOClx0101, Путь: C:\WINDOWS\system32\Drivers\msgpioclx.sys, Статус: OK)
+  GPU Energy Driver (GpuEnergyDrv, Путь: C:\WINDOWS\system32\drivers\gpuenergydrv.sys, Статус: OK)
+  hardlock (hardlock, Путь: \??\C:\WINDOWS\system32\drivers\hardlock.sys, Статус: OK)
+  Драйвер функции UAA для службы High Definition Audio (Microsoft), версия 1.1 (HdAudAddService, Путь: C:\WINDOWS\system32\drivers\HdAudio.sys, Статус: OK)
+  Драйвер для шины UAA для High Definition Audio (Microsoft) (HDAudBus, Путь: C:\WINDOWS\system32\drivers\HDAudBus.sys, Статус: OK)
+  Драйвер батареи ИБП HID (HidBatt, Путь: C:\WINDOWS\system32\drivers\HidBatt.sys, Статус: OK)
+  Microsoft Bluetooth HID минипорт (HidBth, Путь: C:\WINDOWS\system32\drivers\hidbth.sys, Статус: OK)
+  Драйвер минипорта для HID-устройств на шине I2C (Майкрософт) (hidi2c, Путь: C:\WINDOWS\system32\drivers\hidi2c.sys, Статус: OK)
+  Общий драйвер для кнопок HID, внедренных с прерываниями (hidinterrupt, Путь: C:\WINDOWS\system32\drivers\hidinterrupt.sys, Статус: OK)
+  Драйвер Microsoft Infrared HID (HidIr, Путь: C:\WINDOWS\system32\drivers\hidir.sys, Статус: OK)
+  Драйвер минипорта для HID-устройств SPI Microsoft (hidspi, Путь: C:\WINDOWS\system32\drivers\hidspi.sys, Статус: OK)
+  HidSpi KMDF Class Extension (HidSpiCx, Путь: C:\WINDOWS\system32\drivers\HidSpiCx.sys, Статус: OK)
+  ASUS Wireless Radio Control (HIDSwitch, Путь: C:\WINDOWS\system32\drivers\AsRadioControl.sys, Статус: OK)
+  Драйвер класса HID Microsoft (HidUsb, Путь: C:\WINDOWS\system32\drivers\hidusb.sys, Статус: OK)
+  Драйвер HNS WFP (hnswfpdriver, Путь: C:\WINDOWS\system32\drivers\hnswfpdriver.sys, Статус: OK)
+  HpSAMD (HpSAMD, Путь: C:\WINDOWS\system32\drivers\HpSAMD.sys, Статус: OK)
+  HTTP-служба (HTTP, Путь: C:\WINDOWS\system32\drivers\HTTP.sys, Статус: OK)
+  hvcrash (hvcrash, Путь: C:\WINDOWS\system32\drivers\hvcrash.sys, Статус: OK)
+  Hypervisor/Virtual Machine Support Driver (hvservice, Путь: C:\WINDOWS\system32\drivers\hvservice.sys, Статус: OK)
+  hvsocketcontrol (hvsocketcontrol, Путь: C:\WINDOWS\system32\drivers\hvsocketcontrol.sys, Статус: OK)
+  Microsoft Hardware Notifications Class Extension Driver (HwNClx0101, Путь: C:\WINDOWS\system32\Drivers\mshwnclx.sys, Статус: OK)
+  Hardware Policy Driver (hwpolicy, Путь: C:\WINDOWS\system32\drivers\hwpolicy.sys, Статус: OK)
+  hyperkbd (hyperkbd, Путь: C:\WINDOWS\system32\drivers\hyperkbd.sys, Статус: OK)
+  HyperVideo (HyperVideo, Путь: C:\WINDOWS\system32\drivers\HyperVideo.sys, Статус: OK)
+  Драйвер i8042-клавиатуры и мыши для порта PS/2 (i8042prt, Путь: C:\WINDOWS\system32\drivers\i8042prt.sys, Статус: OK)
+  Драйвер контроллера GPIO с последовательным вводом-выводом Intel (iagpio, Путь: C:\WINDOWS\system32\drivers\iagpio.sys, Статус: OK)
+  Intel(R) Serial IO I2C Host Controller (iai2c, Путь: C:\WINDOWS\system32\drivers\iai2c.sys, Статус: OK)
+  Intel(R) Serial IO GPIO Driver v2 (iaLPSS2_GPIO2, Путь: C:\WINDOWS\system32\drivers\iaLPSS2_GPIO2.sys, Статус: OK)
+  Intel(R) Serial IO I2C Driver v2 (iaLPSS2_I2C, Путь: C:\WINDOWS\system32\drivers\iaLPSS2_I2C.sys, Статус: OK)
+  Intel(R) Serial IO UART Driver v2 (iaLPSS2_UART2, Путь: C:\WINDOWS\system32\drivers\iaLPSS2_UART2.sys, Статус: OK)
+  Драйвер версии 2 Intel(R) Serial IO GPIO (iaLPSS2i_GPIO2, Путь: C:\WINDOWS\system32\drivers\iaLPSS2i_GPIO2.sys, Статус: OK)
+  Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_GPIO2_BXT_P, Путь: C:\WINDOWS\system32\drivers\iaLPSS2i_GPIO2_BXT_P.sys, Статус: OK)
+  Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_GPIO2_CNL, Путь: C:\WINDOWS\system32\drivers\iaLPSS2i_GPIO2_CNL.sys, Статус: OK)
+  Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_GPIO2_GLK, Путь: C:\WINDOWS\system32\drivers\iaLPSS2i_GPIO2_GLK.sys, Статус: OK)
+  Драйвер версии 2 Intel(R) Serial IO I2C (iaLPSS2i_I2C, Путь: C:\WINDOWS\system32\drivers\iaLPSS2i_I2C.sys, Статус: OK)
+  Драйвер версии 2 I2C для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_I2C_BXT_P, Путь: C:\WINDOWS\system32\drivers\iaLPSS2i_I2C_BXT_P.sys, Статус: OK)
+  Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_I2C_CNL, Путь: C:\WINDOWS\system32\drivers\iaLPSS2i_I2C_CNL.sys, Статус: OK)
+  Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R) (iaLPSS2i_I2C_GLK, Путь: C:\WINDOWS\system32\drivers\iaLPSS2i_I2C_GLK.sys, Статус: OK)
+  Драйвер контроллера Intel(R) Serial IO GPIO (iaLPSSi_GPIO, Путь: C:\WINDOWS\system32\drivers\iaLPSSi_GPIO.sys, Статус: OK)
+  Драйвер Intel(R) Serial IO I2C Controller (iaLPSSi_I2C, Путь: C:\WINDOWS\system32\drivers\iaLPSSi_I2C.sys, Статус: OK)
+  RAID-контроллер SATA для набора микросхем Intel (iaStorAVC, Путь: C:\WINDOWS\system32\drivers\iaStorAVC.sys, Статус: OK)
+  RAID-контроллер Intel для Windows 7 (iaStorV, Путь: C:\WINDOWS\system32\drivers\iaStorV.sys, Статус: OK)
+  Mellanox InfiniBand Bus/AL (драйвер фильтра) (ibbus, Путь: C:\WINDOWS\system32\drivers\ibbus.sys, Статус: OK)
+  igfx (igfx, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\iigd_dch.inf_amd64_e9b40d45ab4dc6b8\igdkmd64.sys, Статус: OK)
+  Драйвер режима ядра непрямых дисплеев (IndirectKmd, Путь: C:\WINDOWS\system32\drivers\IndirectKmd.sys, Статус: OK)
+  Service for Realtek HD Audio (WDM) (IntcAzAudAddService, Путь: C:\WINDOWS\system32\drivers\RTKVHD64.sys, Статус: OK)
+  Аудио Intel(R) для дисплеев (IntcDAud, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\intcdaud.inf_amd64_1b570d7b9a790b1a\IntcDAud.sys, Статус: OK)
+  intelide (intelide, Путь: C:\WINDOWS\system32\drivers\intelide.sys, Статус: OK)
+  Драйвер подключаемого модуля управления питанием Intel(R) (intelpep, Путь: C:\WINDOWS\system32\drivers\intelpep.sys, Статус: OK)
+  Драйвер диспетчера Intel(R) Dynamic Device Peak Power Manager (intelpmax, Путь: C:\WINDOWS\system32\drivers\intelpmax.sys, Статус: OK)
+  Драйвер Intel процессора (intelppm, Путь: C:\WINDOWS\system32\drivers\intelppm.sys, Статус: OK)
+  Драйвер фильтра скорости ввода-вывода диска (iorate, Путь: C:\WINDOWS\system32\drivers\iorate.sys, Статус: OK)
+  Драйвер фильтра IP-трафика (IpFilterDriver, Путь: C:\WINDOWS\system32\DRIVERS\ipfltdrv.sys, Статус: OK)
+  IPMIDRV (IPMIDRV, Путь: C:\WINDOWS\system32\drivers\IPMIDrv.sys, Статус: OK)
+  IP Network Address Translator (IPNAT, Путь: C:\WINDOWS\system32\drivers\ipnat.sys, Статус: OK)
+  IPT (IPT, Путь: C:\WINDOWS\system32\drivers\ipt.sys, Статус: OK)
+  isapnp (isapnp, Путь: C:\WINDOWS\system32\drivers\isapnp.sys, Статус: OK)
+  Драйвер iScsiPort (iScsiPrt, Путь: C:\WINDOWS\system32\drivers\msiscsi.sys, Статус: OK)
+  ItSas35i (ItSas35i, Путь: C:\WINDOWS\system32\drivers\ItSas35i.sys, Статус: OK)
+  Драйвер класса клавиатуры (kbdclass, Путь: C:\WINDOWS\system32\drivers\kbdclass.sys, Статус: OK)
+  Драйвер клавиатуры HID (kbdhid, Путь: C:\WINDOWS\system32\drivers\kbdhid.sys, Статус: OK)
+  Мини-порт сетевого адаптера с отладкой ядра (Майкрософт) (NDIS 6.20) (kdnic, Путь: C:\WINDOWS\system32\drivers\kdnic.sys, Статус: OK)
+  KSecDD (KSecDD, Путь: C:\WINDOWS\system32\Drivers\ksecdd.sys, Статус: OK)
+  KSecPkg (KSecPkg, Путь: C:\WINDOWS\system32\Drivers\ksecpkg.sys, Статус: OK)
+  KslD (KslD, Путь: C:\WINDOWS\system32\drivers\wd\KslD.sys, Статус: OK)
+  Kernel Streaming Thunks (ksthunk, Путь: C:\WINDOWS\system32\drivers\ksthunk.sys, Статус: OK)
+  Драйвер моста (l2bridge, Путь: C:\WINDOWS\system32\drivers\l2bridge.sys, Статус: OK)
+  Ответчик обнаружения топологии канального уровня (lltdio, Путь: C:\WINDOWS\system32\drivers\lltdio.sys, Статус: OK)
+  LSI_SAS (LSI_SAS, Путь: C:\WINDOWS\system32\drivers\lsi_sas.sys, Статус: OK)
+  LSI_SAS2i (LSI_SAS2i, Путь: C:\WINDOWS\system32\drivers\lsi_sas2i.sys, Статус: OK)
+  LSI_SAS3i (LSI_SAS3i, Путь: C:\WINDOWS\system32\drivers\lsi_sas3i.sys, Статус: OK)
+  LSI_SSS (LSI_SSS, Путь: C:\WINDOWS\system32\drivers\lsi_sss.sys, Статус: OK)
+  Виртуализация файла контроля учетных записей (luafv, Путь: C:\WINDOWS\system32\drivers\luafv.sys, Статус: OK)
+  lxss (lxss, Путь: C:\WINDOWS\system32\drivers\lxss.sys, Статус: OK)
+  Драйвер хост-контроллера MA-USB (mausbhost, Путь: C:\WINDOWS\system32\drivers\mausbhost.sys, Статус: OK)
+  Драйвер IP-фильтр MA-USB (mausbip, Путь: C:\WINDOWS\system32\drivers\mausbip.sys, Статус: OK)
+  MBB Network Adapter Class Extension (MbbCx, Путь: C:\WINDOWS\system32\drivers\MbbCx.sys, Статус: OK)
+  megasas (megasas, Путь: C:\WINDOWS\system32\drivers\megasas.sys, Статус: OK)
+  megasas2i (megasas2i, Путь: C:\WINDOWS\system32\drivers\MegaSas2i.sys, Статус: OK)
+  megasas35i (megasas35i, Путь: C:\WINDOWS\system32\drivers\megasas35i.sys, Статус: OK)
+  megasr (megasr, Путь: C:\WINDOWS\system32\drivers\megasr.sys, Статус: OK)
+  Intel(R) Trusted Execution Engine Interface (MEIx64, Путь: C:\WINDOWS\system32\drivers\TeeDriverW8x64.sys, Статус: OK)
+  Драйвер транспорта AVRCP Microsoft Bluetooth (Microsoft_Bluetooth_AvrcpTransport, Путь: C:\WINDOWS\system32\drivers\Microsoft.Bluetooth.AvrcpTransport.sys, Статус: OK)
+  Перечислитель шины Mellanox ConnectX (mlx4_bus, Путь: C:\WINDOWS\system32\drivers\mlx4_bus.sys, Статус: OK)
+  Multimedia Class Scheduler (MMCSS, Путь: C:\WINDOWS\system32\drivers\mmcss.sys, Статус: OK)
+  Modem (Modem, Путь: C:\WINDOWS\system32\drivers\modem.sys, Статус: OK)
+  Microsoft Monitor Class Function Driver Service (monitor, Путь: C:\WINDOWS\system32\drivers\monitor.sys, Статус: OK)
+  Драйвер класса мыши (mouclass, Путь: C:\WINDOWS\system32\drivers\mouclass.sys, Статус: OK)
+  Драйвер мыши HID (mouhid, Путь: C:\WINDOWS\system32\drivers\mouhid.sys, Статус: OK)
+  Диспетчер точек подключения (mountmgr, Путь: C:\WINDOWS\system32\drivers\mountmgr.sys, Статус: OK)
+  Windows Defender Firewall Authorization Driver (mpsdrv, Путь: C:\WINDOWS\system32\drivers\mpsdrv.sys, Статус: OK)
+  Драйвер перенаправителя клиентов WebDav (MRxDAV, Путь: C:\WINDOWS\system32\drivers\mrxdav.sys, Статус: OK)
+  Оболочка и модуль мини-перенаправителя SMB (mrxsmb, Путь: C:\WINDOWS\system32\DRIVERS\mrxsmb.sys, Статус: OK)
+  Мини-перенаправитель SMB 2.0 (mrxsmb20, Путь: C:\WINDOWS\system32\DRIVERS\mrxsmb20.sys, Статус: OK)
+  MAC-мост (Майкрософт) (MsBridge, Путь: C:\WINDOWS\system32\drivers\bridge.sys, Статус: OK)
+  Msfs (Msfs, Путь: C:\WINDOWS\system32\drivers\Msfs.sys, Статус: OK)
+  Общий драйвер для кнопок, режима подставки и индикатора ноутбука/планшета (msgpiowin32, Путь: C:\WINDOWS\system32\drivers\msgpiowin32.sys, Статус: OK)
+  Pass-through HID to KMDF Filter Driver (mshidkmdf, Путь: C:\WINDOWS\system32\drivers\mshidkmdf.sys, Статус: OK)
+  Сквозной драйвер HID-UMDF (mshidumdf, Путь: C:\WINDOWS\system32\drivers\mshidumdf.sys, Статус: OK)
+  msisadrv (msisadrv, Путь: C:\WINDOWS\system32\drivers\msisadrv.sys, Статус: OK)
+  Представитель служб потоков Microsoft (MSKSSRV, Путь: C:\WINDOWS\system32\drivers\MSKSSRV.sys, Статус: OK)
+  Протокол Microsoft LLDP (MsLldp, Путь: C:\WINDOWS\system32\drivers\mslldp.sys, Статус: OK)
+  Посредник синхронизации потоков Microsoft (MSPCLOCK, Путь: C:\WINDOWS\system32\drivers\MSPCLOCK.sys, Статус: OK)
+  Представитель диспетчера качества потоков Microsoft (MSPQM, Путь: C:\WINDOWS\system32\drivers\MSPQM.sys, Статус: OK)
+  MsQuic (MsQuic, Путь: C:\WINDOWS\system32\drivers\msquic.sys, Статус: OK)
+  MsRPC (MsRPC, Путь: C:\WINDOWS\system32\drivers\MsRPC.sys, Статус: OK)
+  Драйвер Microsoft System Management BIOS (mssmbios, Путь: C:\WINDOWS\system32\drivers\mssmbios.sys, Статус: OK)
+  Преобразователь потоков Tee/Sink-to-Sink Microsoft (MSTEE, Путь: C:\WINDOWS\system32\drivers\MSTEE.sys, Статус: OK)
+  Microsoft Input Configuration Driver (MTConfig, Путь: C:\WINDOWS\system32\drivers\MTConfig.sys, Статус: OK)
+  Mup (Mup, Путь: C:\WINDOWS\system32\Drivers\mup.sys, Статус: OK)
+  mvumis (mvumis, Путь: C:\WINDOWS\system32\drivers\mvumis.sys, Статус: OK)
+  Фильтр NativeWiFi (NativeWifiP, Путь: C:\WINDOWS\system32\DRIVERS\nwifi.sys, Статус: OK)
+  Служба NetworkDirect (ndfltr, Путь: C:\WINDOWS\system32\drivers\ndfltr.sys, Статус: OK)
+  Системный драйвер NDIS (NDIS, Путь: C:\WINDOWS\system32\drivers\ndis.sys, Статус: OK)
+  Захват Microsoft NDIS (NdisCap, Путь: C:\WINDOWS\system32\drivers\ndiscap.sys, Статус: OK)
+  Протокол мультиплексора сетевого адаптера (Майкрософт) (NdisImPlatform, Путь: C:\WINDOWS\system32\drivers\NdisImPlatform.sys, Статус: OK)
+  NDIS-драйвер TAPI удаленного доступа (NdisTapi, Путь: C:\WINDOWS\system32\DRIVERS\ndistapi.sys, Статус: OK)
+  NDIS Usermode I/O Protocol (Ndisuio, Путь: C:\WINDOWS\system32\drivers\ndisuio.sys, Статус: OK)
+  Перечислитель виртуальных сетевых адаптеров (Майкрософт) (NdisVirtualBus, Путь: C:\WINDOWS\system32\drivers\NdisVirtualBus.sys, Статус: OK)
+  NDIS-драйвер глобальной сети для удаленного доступа (NdisWan, Путь: C:\WINDOWS\system32\drivers\ndiswan.sys, Статус: OK)
+  Устаревшая версия NDIS-драйвера глобальной сети для удаленного доступа (ndiswanlegacy, Путь: C:\WINDOWS\system32\DRIVERS\ndiswan.sys, Статус: OK)
+  NDKPing Driver (NDKPing, Путь: C:\WINDOWS\system32\drivers\NDKPing.sys, Статус: OK)
+  NDIS Proxy Driver (ndproxy, Путь: C:\WINDOWS\system32\DRIVERS\NDProxy.sys, Статус: OK)
+  Windows Network Data Usage Monitoring Driver (Ndu, Путь: C:\WINDOWS\system32\drivers\Ndu.sys, Статус: OK)
+  Network Adapter Wdf Class Extension Library (NetAdapterCx, Путь: C:\WINDOWS\system32\drivers\NetAdapterCx.sys, Статус: OK)
+  NetBIOS Interface (NetBIOS, Путь: C:\WINDOWS\system32\drivers\netbios.sys, Статус: OK)
+  NetBT (NetBT, Путь: C:\WINDOWS\system32\DRIVERS\netbt.sys, Статус: OK)
+  netvsc (netvsc, Путь: C:\WINDOWS\system32\drivers\netvsc.sys, Статус: OK)
+  Npfs (Npfs, Путь: C:\WINDOWS\system32\drivers\Npfs.sys, Статус: OK)
+  Named pipe service trigger provider (npsvctrig, Путь: C:\WINDOWS\system32\drivers\npsvctrig.sys, Статус: OK)
+  NSI Proxy Service Driver (nsiproxy, Путь: C:\WINDOWS\system32\drivers\nsiproxy.sys, Статус: OK)
+  Ntfs (Ntfs, Путь: C:\WINDOWS\system32\drivers\Ntfs.sys, Статус: OK)
+  Null (Null, Путь: C:\WINDOWS\system32\drivers\Null.sys, Статус: OK)
+  Драйвер устройства (Майкрософт) NVDIMM (nvdimm, Путь: C:\WINDOWS\system32\drivers\nvdimm.sys, Статус: OK)
+  nvlddmkm (nvlddmkm, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\nvam.inf_amd64_abccf9a242036197\nvlddmkm.sys, Статус: OK)
+  nvraid (nvraid, Путь: C:\WINDOWS\system32\drivers\nvraid.sys, Статус: OK)
+  nvstor (nvstor, Путь: C:\WINDOWS\system32\drivers\nvstor.sys, Статус: OK)
+  Plan 9 Redirector Driver (P9Rdr, Путь: C:\WINDOWS\system32\drivers\p9rdr.sys, Статус: OK)
+  Драйвер параллельного порта (Parport, Путь: C:\WINDOWS\system32\drivers\parport.sys, Статус: OK)
+  Драйвер разделов (partmgr, Путь: C:\WINDOWS\system32\drivers\partmgr.sys, Статус: OK)
+  PassthroughParser (passthruparser, Путь: C:\WINDOWS\system32\drivers\passthruparser.sys, Статус: OK)
+  Драйвер шины PCI (pci, Путь: C:\WINDOWS\system32\drivers\pci.sys, Статус: OK)
+  pciide (pciide, Путь: C:\WINDOWS\system32\drivers\pciide.sys, Статус: OK)
+  pcmcia (pcmcia, Путь: C:\WINDOWS\system32\drivers\pcmcia.sys, Статус: OK)
+  Performance Counters for Windows Driver (pcw, Путь: C:\WINDOWS\system32\drivers\pcw.sys, Статус: OK)
+  pdc (pdc, Путь: C:\WINDOWS\system32\drivers\pdc.sys, Статус: OK)
+  PEAUTH (PEAUTH, Путь: C:\WINDOWS\system32\drivers\peauth.sys, Статус: OK)
+  percsas2i (percsas2i, Путь: C:\WINDOWS\system32\drivers\percsas2i.sys, Статус: OK)
+  percsas3i (percsas3i, Путь: C:\WINDOWS\system32\drivers\percsas3i.sys, Статус: OK)
+  Packet Monitor Driver (PktMon, Путь: C:\WINDOWS\system32\drivers\PktMon.sys, Статус: OK)
+  Драйвер диска энергонезависимой памяти (Майкрософт) (pmem, Путь: C:\WINDOWS\system32\drivers\pmem.sys, Статус: OK)
+  Драйвер модуля памяти (Microsoft) (PNPMEM, Путь: C:\WINDOWS\system32\drivers\pnpmem.sys, Статус: OK)
+  portcfg (portcfg, Путь: C:\WINDOWS\system32\drivers\portcfg.sys, Статус: OK)
+  Мини-порт глобальной сети (PPTP) (PptpMiniport, Путь: C:\WINDOWS\system32\drivers\raspptp.sys, Статус: OK)
+  Драйвер процессора (Processor, Путь: C:\WINDOWS\system32\drivers\processr.sys, Статус: OK)
+  Планировщик пакетов QoS (Psched, Путь: C:\WINDOWS\system32\drivers\pacer.sys, Статус: OK)
+  pvhdparser (pvhdparser, Путь: C:\WINDOWS\system32\drivers\pvhdparser.sys, Статус: OK)
+  Драйвер QWAVE (QWAVEdrv, Путь: C:\WINDOWS\system32\drivers\qwavedrv.sys, Статус: OK)
+  Windows RAM Disk Driver (Ramdisk, Путь: C:\WINDOWS\system32\DRIVERS\ramdisk.sys, Статус: OK)
+  Remote Access Auto Connection Driver (RasAcd, Путь: C:\WINDOWS\system32\DRIVERS\rasacd.sys, Статус: OK)
+  Мини-порт глобальной сети (IKEv2) (RasAgileVpn, Путь: C:\WINDOWS\system32\drivers\AgileVpn.sys, Статус: OK)
+  Мини-порт глобальной сети (L2TP) (Rasl2tp, Путь: C:\WINDOWS\system32\drivers\rasl2tp.sys, Статус: OK)
+  Драйвер PPPOE для удаленного доступа (RasPppoe, Путь: C:\WINDOWS\system32\DRIVERS\raspppoe.sys, Статус: OK)
+  Мини-порт глобальной сети (SSTP) (RasSstp, Путь: C:\WINDOWS\system32\drivers\rassstp.sys, Статус: OK)
+  Перенаправленная подсистема буферизации (rdbss, Путь: C:\WINDOWS\system32\DRIVERS\rdbss.sys, Статус: OK)
+  Драйвер шины перенаправителя устройств удаленных рабочих столов (rdpbus, Путь: C:\WINDOWS\system32\drivers\rdpbus.sys, Статус: OK)
+  Драйвер перенаправителя устройств удаленных рабочих столов (RDPDR, Путь: C:\WINDOWS\system32\drivers\rdpdr.sys, Статус: OK)
+  Remote Desktop Video Miniport Driver (RdpVideoMiniport, Путь: C:\WINDOWS\system32\drivers\rdpvideominiport.sys, Статус: OK)
+  ReadyBoost (rdyboost, Путь: C:\WINDOWS\system32\drivers\rdyboost.sys, Статус: OK)
+  ReFS (ReFS, Путь: C:\WINDOWS\system32\drivers\ReFS.sys, Статус: OK)
+  ReFSv1 (ReFSv1, Путь: C:\WINDOWS\system32\drivers\ReFSv1.sys, Статус: OK)
+  Bluetooth Device (RFCOMM Protocol TDI) (RFCOMM, Путь: C:\WINDOWS\system32\drivers\rfcomm.sys, Статус: OK)
+  Драйвер прокси-сервера центра ресурсов (rhproxy, Путь: C:\WINDOWS\system32\drivers\rhproxy.sys, Статус: OK)
+  RsFx0600 Driver (RsFx0600, Путь: C:\WINDOWS\system32\DRIVERS\RsFx0600.sys, Статус: OK)
+  Отвечающее устройство обнаружения топологии канального уровня (rspndr, Путь: C:\WINDOWS\system32\drivers\rspndr.sys, Статус: OK)
+  Realtek Bluetooth Filter Driver (RtkBtFilter, Путь: C:\WINDOWS\system32\drivers\RtkBtfilter.sys, Статус: OK)
+  Realtek USB Card Reader - UER (RTSUER, Путь: C:\WINDOWS\system32\Drivers\RtsUer.sys, Статус: OK)
+  Realtek Wireless LAN 802.11n PCI-E Network Adapter (RTWlanE, Путь: C:\WINDOWS\system32\drivers\rtwlane.sys, Статус: OK)
+  s3cap (s3cap, Путь: C:\WINDOWS\system32\drivers\vms3cap.sys, Статус: OK)
+  SBP-2 драйвер шины транспорт/протокол (sbp2port, Путь: C:\WINDOWS\system32\drivers\sbp2port.sys, Статус: OK)
+  Драйвер фильтра смарт-карты класса PnP (scfilter, Путь: C:\WINDOWS\system32\DRIVERS\scfilter.sys, Статус: OK)
+  Драйвер Microsoft шины памяти класса хранилища (scmbus, Путь: C:\WINDOWS\system32\drivers\scmbus.sys, Статус: OK)
+  sdbus (sdbus, Путь: C:\WINDOWS\system32\drivers\sdbus.sys, Статус: OK)
+  Отражатель SDF (SDFRd, Путь: C:\WINDOWS\system32\drivers\SDFRd.sys, Статус: OK)
+  Драйвер порта SD Storage (sdstor, Путь: C:\WINDOWS\system32\drivers\sdstor.sys, Статус: OK)
+  Serial UART Support Library (SerCx, Путь: C:\WINDOWS\system32\drivers\SerCx.sys, Статус: OK)
+  Serial UART Support Library (SerCx2, Путь: C:\WINDOWS\system32\drivers\SerCx2.sys, Статус: OK)
+  Драйвер фильтра Serenum (Serenum, Путь: C:\WINDOWS\system32\drivers\serenum.sys, Статус: OK)
+  Драйвер последовательного порта (Serial, Путь: C:\WINDOWS\system32\drivers\serial.sys, Статус: OK)
+  Драйвер мыши для посл. порта (sermouse, Путь: C:\WINDOWS\system32\drivers\sermouse.sys, Статус: OK)
+  Дисковод большой емкости (sfloppy, Путь: C:\WINDOWS\system32\drivers\sfloppy.sys, Статус: OK)
+  SiSRaid2 (SiSRaid2, Путь: C:\WINDOWS\system32\drivers\SiSRaid2.sys, Статус: OK)
+  SiSRaid4 (SiSRaid4, Путь: C:\WINDOWS\system32\drivers\sisraid4.sys, Статус: OK)
+  SmartSAMD (SmartSAMD, Путь: C:\WINDOWS\system32\drivers\SmartSAMD.sys, Статус: OK)
+  Acronis Snapshots Manager (snapman, Путь: C:\WINDOWS\system32\DRIVERS\snapman.sys, Статус: OK)
+  Space Parser (spaceparser, Путь: C:\WINDOWS\system32\drivers\spaceparser.sys, Статус: OK)
+  Драйвер дискового пространства (spaceport, Путь: C:\WINDOWS\system32\drivers\spaceport.sys, Статус: OK)
+  Holographic Spatial Graph Filter (SpatialGraphFilter, Путь: C:\WINDOWS\system32\drivers\SpatialGraphFilter.sys, Статус: OK)
+  Simple Peripheral Bus Support Library (SpbCx, Путь: C:\WINDOWS\system32\drivers\SpbCx.sys, Статус: OK)
+  Драйвер сервера Server SMB 2.xxx (srv2, Путь: C:\WINDOWS\system32\DRIVERS\srv2.sys, Статус: OK)
+  srvnet (srvnet, Путь: C:\WINDOWS\system32\DRIVERS\srvnet.sys, Статус: OK)
+  stexstor (stexstor, Путь: C:\WINDOWS\system32\drivers\stexstor.sys, Статус: OK)
+  Стандартный драйвер SATA AHCI (Майкрософт) (storahci, Путь: C:\WINDOWS\system32\drivers\storahci.sys, Статус: OK)
+  Ускоритель хранилища Microsoft Hyper-V (storflt, Путь: C:\WINDOWS\system32\drivers\vmstorfl.sys, Статус: OK)
+  Стандартный драйвер NVM Express (Майкрософт) (stornvme, Путь: C:\WINDOWS\system32\drivers\stornvme.sys, Статус: OK)
+  Драйвер-фильтр качества обслуживания хранилища (storqosflt, Путь: C:\WINDOWS\system32\drivers\storqosflt.sys, Статус: OK)
+  Драйвер для универсального флеш-накопителя (UFS) Microsoft (storufs, Путь: C:\WINDOWS\system32\drivers\storufs.sys, Статус: OK)
+  storvsc (storvsc, Путь: C:\WINDOWS\system32\drivers\storvsc.sys, Статус: OK)
+  storvsp (storvsp, Путь: C:\WINDOWS\system32\drivers\storvsp.sys, Статус: OK)
+  Драйвер программной шины (swenum, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\swenum.inf_amd64_16a14542b63c02af\swenum.sys, Статус: OK)
+  Synth3dVsc (Synth3dVsc, Путь: C:\WINDOWS\system32\drivers\Synth3dVsc.sys, Статус: OK)
+  Драйвер протокола TCP/IP (Tcpip, Путь: C:\WINDOWS\system32\drivers\tcpip.sys, Статус: OK)
+  @todo.dll,-100;Microsoft IPv6 Protocol Driver (Tcpip6, Путь: C:\WINDOWS\system32\drivers\tcpip.sys, Статус: OK)
+  TCP/IP Registry Compatibility (tcpipreg, Путь: C:\WINDOWS\system32\drivers\tcpipreg.sys, Статус: OK)
+  Драйвер поддержки NetIO Legacy TDI (tdx, Путь: C:\WINDOWS\system32\DRIVERS\tdx.sys, Статус: OK)
+  Служба телеметрии Intel(R) (Telemetry, Путь: C:\WINDOWS\system32\drivers\IntelTA.sys, Статус: OK)
+  Microsoft Remote Desktop Input Driver (terminpt, Путь: C:\WINDOWS\system32\drivers\terminpt.sys, Статус: OK)
+  Acronis TIB Mounter (tib_mounter, Путь: C:\WINDOWS\system32\DRIVERS\tib_mounter.sys, Статус: OK)
+  TPM (TPM, Путь: C:\WINDOWS\system32\drivers\tpm.sys, Статус: OK)
+  Драйвер-фильтр класса USB-концентратора удаленного рабочего стола (TsUsbFlt, Путь: C:\WINDOWS\system32\drivers\tsusbflt.sys, Статус: OK)
+  Универсальное USB-устройство удаленного рабочего стола (TsUsbGD, Путь: C:\WINDOWS\system32\drivers\TsUsbGD.sys, Статус: OK)
+  Драйвер адаптера минипорта для туннеля (Майкрософт) (tunnel, Путь: C:\WINDOWS\system32\drivers\tunnel.sys, Статус: OK)
+  Драйвер USB-устройства SCSI (UAS) (UASPStor, Путь: C:\WINDOWS\system32\drivers\uaspstor.sys, Статус: OK)
+  USB Connector Manager KMDF Class Extension (UcmCx0101, Путь: C:\WINDOWS\system32\Drivers\UcmCx.sys, Статус: OK)
+  UCM-TCPCI KMDF Class Extension (UcmTcpciCx0101, Путь: C:\WINDOWS\system32\Drivers\UcmTcpciCx.sys, Статус: OK)
+  Клиент ACPI UCM-UCSI (UcmUcsiAcpiClient, Путь: C:\WINDOWS\system32\drivers\UcmUcsiAcpiClient.sys, Статус: OK)
+  UCM-UCSI KMDF Class Extension (UcmUcsiCx0101, Путь: C:\WINDOWS\system32\Drivers\UcmUcsiCx.sys, Статус: OK)
+  UCPD (UCPD, Путь: C:\WINDOWS\system32\drivers\UCPD.sys, Статус: OK)
+  USB Host Support Library (Ucx01000, Путь: C:\WINDOWS\system32\drivers\ucx01000.sys, Статус: OK)
+  USB Device Emulation Support Library (UdeCx, Путь: C:\WINDOWS\system32\drivers\udecx.sys, Статус: OK)
+  udfs (udfs, Путь: C:\WINDOWS\system32\DRIVERS\udfs.sys, Статус: OK)
+  Драйвер UEFI (Майкрософт) (UEFI, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\uefi.inf_amd64_c1628ffa62c8e54c\UEFI.sys, Статус: OK)
+  USB Function Class Extension (Ufx01000, Путь: C:\WINDOWS\system32\drivers\ufx01000.sys, Статус: OK)
+  USB-контроллер Chipidea (UfxChipidea, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\ufxchipidea.inf_amd64_1c78775fffab6a0a\UfxChipidea.sys, Статус: OK)
+  USB-котроллер Synopsys (ufxsynopsys, Путь: C:\WINDOWS\system32\drivers\ufxsynopsys.sys, Статус: OK)
+  UMBus драйвер перечислителя (umbus, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\umbus.inf_amd64_b78a9c5b6fd62c27\umbus.sys, Статус: OK)
+  Драйвер UMPass Microsoft (UmPass, Путь: C:\WINDOWS\system32\drivers\umpass.sys, Статус: OK)
+  Драйвер с переключением ролей Chipidea USB (UrsChipidea, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\urschipidea.inf_amd64_78ad1c14e33df968\urschipidea.sys, Статус: OK)
+  USB Role-Switch Support Library (UrsCx01000, Путь: C:\WINDOWS\system32\drivers\urscx01000.sys, Статус: OK)
+  Драйвер с переключением ролей Synopsys USB (UrsSynopsys, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\urssynopsys.inf_amd64_057fa37902020500\urssynopsys.sys, Статус: OK)
+  Аудио драйвер USB (WDM) (usbaudio, Путь: C:\WINDOWS\system32\drivers\usbaudio.sys, Статус: OK)
+  Служба USB Audio 2.0 (usbaudio2, Путь: C:\WINDOWS\system32\drivers\usbaudio2.sys, Статус: OK)
+  Драйвер универсального родительского устройства USB (Microsoft) (usbccgp, Путь: C:\WINDOWS\system32\drivers\usbccgp.sys, Статус: OK)
+  eHome инфракрасный ресивер (USBCIR) (usbcir, Путь: C:\WINDOWS\system32\drivers\usbcir.sys, Статус: OK)
+  Драйвер минипорта Microsoft USB 2.0 расширенного хост-контроллера (usbehci, Путь: C:\WINDOWS\system32\drivers\usbehci.sys, Статус: OK)
+  Стандартный драйвер USB-концентратора (Майкрософт) (usbhub, Путь: C:\WINDOWS\system32\drivers\usbhub.sys, Статус: OK)
+  Концентратор SuperSpeed (USBHUB3, Путь: C:\WINDOWS\system32\drivers\UsbHub3.sys, Статус: OK)
+  Драйвер минипорта Microsoft USB открытого хост-контроллера (usbohci, Путь: C:\WINDOWS\system32\drivers\usbohci.sys, Статус: OK)
+  Класс принтеров Microsoft USB (usbprint, Путь: C:\WINDOWS\system32\drivers\usbprint.sys, Статус: OK)
+  Адаптер USB RNDIS6 (usbrndis6, Путь: C:\WINDOWS\system32\drivers\usb80236.sys, Статус: OK)
+  Драйвер USB-сканера (usbscan, Путь: C:\WINDOWS\system32\drivers\usbscan.sys, Статус: OK)
+  Драйвер последовательного порта USB (Майкрософт) (usbser, Путь: C:\WINDOWS\system32\drivers\usbser.sys, Статус: OK)
+  Драйвер запоминающих устройств для USB (USBSTOR, Путь: C:\WINDOWS\system32\drivers\USBSTOR.SYS, Статус: OK)
+  Драйвер минипорта Microsoft USB универсального хост-контроллера (usbuhci, Путь: C:\WINDOWS\system32\drivers\usbuhci.sys, Статус: OK)
+  USB-видеоустройство (WDM) (usbvideo, Путь: C:\WINDOWS\system32\Drivers\usbvideo.sys, Статус: OK)
+  xHCI-совместимый хост-контроллер USB (USBXHCI, Путь: C:\WINDOWS\system32\drivers\USBXHCI.SYS, Статус: OK)
+  Перечислитель виртуальных дисков (Майкрософт) (vdrvroot, Путь: C:\WINDOWS\system32\drivers\vdrvroot.sys, Статус: OK)
+  Расширение средства проверки драйверов (VerifierExt, Путь: C:\WINDOWS\system32\drivers\VerifierExt.sys, Статус: OK)
+  Microsoft Azure VFP Switch Extension (VfpExt, Путь: C:\WINDOWS\system32\drivers\vfpext.sys, Статус: OK)
+  vhdmp (vhdmp, Путь: C:\WINDOWS\system32\drivers\vhdmp.sys, Статус: OK)
+  vhdparser (vhdparser, Путь: C:\WINDOWS\system32\drivers\vhdparser.sys, Статус: OK)
+  Драйвер платформы Virtual HID Framework (VHF) (vhf, Путь: C:\WINDOWS\system32\drivers\vhf.sys, Статус: OK)
+  Vid (Vid, Путь: C:\WINDOWS\system32\drivers\Vid.sys, Статус: OK)
+  Acronis Virtual File Driver (virtual_file, Путь: C:\WINDOWS\system32\DRIVERS\virtual_file.sys, Статус: OK)
+  VirtualRender (VirtualRender, Путь: C:\WINDOWS\system32\DriverStore\FileRepository\vrd.inf_amd64_81fbd405ff2470fc\vrd.sys, Статус: OK)
+  Шина VMBus (vmbus, Путь: C:\WINDOWS\system32\drivers\vmbus.sys, Статус: OK)
+  VMBusHID (VMBusHID, Путь: C:\WINDOWS\system32\drivers\VMBusHID.sys, Статус: OK)
+  Поставщик шины виртуальной машины (vmbusr, Путь: C:\WINDOWS\system32\drivers\vmbusr.sys, Статус: OK)
+  Драйвер инфраструктуры гостей Microsoft Hyper-V (vmgid, Путь: C:\WINDOWS\system32\drivers\vmgid.sys, Статус: OK)
+  vmsmp (vmsmp, Путь: C:\WINDOWS\system32\drivers\vmswitch.sys, Статус: OK)
+  VmSwitch NIC Proxy Driver (VMSNPXY, Путь: C:\WINDOWS\system32\drivers\VmsProxyHNic.sys, Статус: OK)
+  VMSNPXYMP (VMSNPXYMP, Путь: C:\WINDOWS\system32\drivers\VmsProxyHNic.sys, Статус: OK)
+  VmSwitch Protocol Driver (VMSP, Путь: C:\WINDOWS\system32\drivers\vmswitch.sys, Статус: OK)
+  VmSwitch Proxy Driver (VmsProxy, Путь: C:\WINDOWS\system32\drivers\VmsProxy.sys, Статус: OK)
+  VmSwitch Extensibility Filter (VMSVSF, Путь: C:\WINDOWS\system32\drivers\vmswitch.sys, Статус: OK)
+  VmSwitch Extensibility Protocol (VMSVSP, Путь: C:\WINDOWS\system32\drivers\vmswitch.sys, Статус: OK)
+  Check Point Virtual Network Adapter - Apollo (vna_ap, Путь: C:\WINDOWS\system32\DRIVERS\vnaap.sys, Статус: OK)
+  Драйвер диспетчера томов (volmgr, Путь: C:\WINDOWS\system32\drivers\volmgr.sys, Статус: OK)
+  Диспетчер динамических томов (volmgrx, Путь: C:\WINDOWS\system32\drivers\volmgrx.sys, Статус: OK)
+  Драйвер теневого копирования тома (volsnap, Путь: C:\WINDOWS\system32\drivers\volsnap.sys, Статус: OK)
+  Драйвер тома (volume, Путь: C:\WINDOWS\system32\drivers\volume.sys, Статус: OK)
+  Acronis Volume Tracker (volume_tracker, Путь: C:\WINDOWS\system32\DRIVERS\volume_tracker.sys, Статус: OK)
+  Виртуальная шина PCI Microsoft Hyper-V (vpci, Путь: C:\WINDOWS\system32\drivers\vpci.sys, Статус: OK)
+  Сервер PCI Microsoft Hyper-V (vpcivsp, Путь: C:\WINDOWS\system32\drivers\vpcivsp.sys, Статус: OK)
+  Zone Alarm Firewall Driver (vsdatant, Путь: C:\WINDOWS\system32\DRIVERS\vsdatant.sys, Статус: OK)
+  vsmraid (vsmraid, Путь: C:\WINDOWS\system32\drivers\vsmraid.sys, Статус: OK)
+  Драйвер RAID-контроллера запоминающего устройства VIA StorX для Windows (VSTXRAID, Путь: C:\WINDOWS\system32\drivers\vstxraid.sys, Статус: OK)
+  Virtual Wireless Bus Driver (vwifibus, Путь: C:\WINDOWS\system32\drivers\vwifibus.sys, Статус: OK)
+  Virtual WiFi Filter Driver (vwififlt, Путь: C:\WINDOWS\system32\drivers\vwififlt.sys, Статус: OK)
+  Virtual WiFi Miniport Service (vwifimp, Путь: C:\WINDOWS\system32\drivers\vwifimp.sys, Статус: OK)
+  Wacom - драйвер пера последовательного порта (WacomPen, Путь: C:\WINDOWS\system32\drivers\wacompen.sys, Статус: OK)
+  Драйвер IP ARP для удаленного доступа (wanarp, Путь: C:\WINDOWS\system32\DRIVERS\wanarp.sys, Статус: OK)
+  Драйвер IPv6 ARP для удаленного доступа (wanarpv6, Путь: C:\WINDOWS\system32\DRIVERS\wanarp.sys, Статус: OK)
+  Windows Container Isolation (wcifs, Путь: C:\WINDOWS\system32\drivers\wcifs.sys, Статус: OK)
+  Windows Container Name Virtualization (wcnfs, Путь: C:\WINDOWS\system32\drivers\wcnfs.sys, Статус: OK)
+  Microsoft WdAiNisDrv Driver (WdAiNisDrv, Путь: C:\WINDOWS\system32\drivers\wd\WdAiNisDrv.sys, Статус: OK)
+  Драйвер загрузки антивирусной программы Microsoft Defender (WdBoot, Путь: C:\WINDOWS\system32\drivers\wd\WdBoot.sys, Статус: OK)
+  Служба платформ драйвера режима ядра (Wdf01000, Путь: C:\WINDOWS\system32\drivers\Wdf01000.sys, Статус: OK)
+  Драйвер с функцией мини-фильтра в составе антивирусной программы Microsoft Defender (WdFilter, Путь: C:\WINDOWS\system32\drivers\wd\WdFilter.sys, Статус: OK)
+  WDI Driver Framework (wdiwifi, Путь: C:\WINDOWS\system32\DRIVERS\wdiwifi.sys, Статус: OK)
+  WdmCompanionFilter (WdmCompanionFilter, Путь: C:\WINDOWS\system32\drivers\WdmCompanionFilter.sys, Статус: OK)
+  Системный драйвер проверки сети в составе антивирусной программы Microsoft Defender (WdNisDrv, Путь: C:\WINDOWS\system32\drivers\wd\WdNisDrv.sys, Статус: OK)
+  Платформа фильтрации Microsoft Windows (WFPLWFS, Путь: C:\WINDOWS\system32\drivers\wfplwfs.sys, Статус: OK)
+  WIMMount (WIMMount, Путь: C:\WINDOWS\system32\drivers\wimmount.sys, Статус: OK)
+  Windows Trusted Execution Environment Class Extension (WindowsTrustedRT, Путь: C:\WINDOWS\system32\drivers\WindowsTrustedRT.sys, Статус: OK)
+  Служба безопасности доверенной среды выполнения Microsoft Windows (WindowsTrustedRTProxy, Путь: C:\WINDOWS\system32\drivers\WindowsTrustedRTProxy.sys, Статус: OK)
+  Служба WinMad (WinMad, Путь: C:\WINDOWS\system32\drivers\winmad.sys, Статус: OK)
+  Драйвер NAT Windows (WinNat, Путь: C:\WINDOWS\system32\drivers\winnat.sys, Статус: OK)
+  Драйвер WinUsb (WINUSB, Путь: C:\WINDOWS\system32\drivers\WinUsb.sys, Статус: OK)
+  Служба WinVerbs (WinVerbs, Путь: C:\WINDOWS\system32\drivers\winverbs.sys, Статус: OK)
+  Microsoft Windows Management Interface for ACPI (WmiAcpi, Путь: C:\WINDOWS\system32\drivers\wmiacpi.sys, Статус: OK)
+  Windows Overlay File System Filter Driver (Wof, Путь: C:\WINDOWS\system32\drivers\Wof.sys, Статус: OK)
+  WPD Upper Class Filter Driver (WpdUpFltr, Путь: C:\WINDOWS\system32\drivers\WpdUpFltr.sys, Статус: OK)
+  Драйвер WinSock IFS (ws2ifsl, Путь: C:\WINDOWS\system32\drivers\ws2ifsl.sys, Статус: OK)
+  User Mode Driver Frameworks Platform Driver (WudfPf, Путь: C:\WINDOWS\system32\drivers\WudfPf.sys, Статус: OK)
+  Windows Driver Foundation - User-mode Driver Framework Reflector (WUDFRd, Путь: C:\WINDOWS\system32\drivers\WUDFRd.sys, Статус: OK)
+  Драйвер файловой системы WPD (WUDFWpdFs, Путь: C:\WINDOWS\system32\drivers\WUDFRd.sys, Статус: OK)
+  WUDFWpdMtp (WUDFWpdMtp, Путь: C:\WINDOWS\system32\drivers\WUDFRd.sys, Статус: OK)
+  Драйвер протокола игрового ввода Xbox (xboxgip, Путь: C:\WINDOWS\system32\drivers\xboxgip.sys, Статус: OK)
+  Драйвер-фильтр HID XINPUT (xinputhid, Путь: C:\WINDOWS\system32\drivers\xinputhid.sys, Статус: OK)
+
+USB‑устройства (PowerShell):
+  USB Composite Device
+  USB Root Hub (USB 3.0)
+  Realtek USB 2.0 Card Reader
+  Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
+
+=== ПРОГРАММЫ В АВТОЗАГРУЗКЕ ===
+ Acronis
+ OneDrive
+ KLPkInst_38ad0524-7dab-47fb-ae9c-276571b748e5
+ Microsoft
+ YandexBrowserAutoLaunch_FE6355B8F4AECE4415A6D80C0AC8CB9B
+ MediaGet2
+ MicrosoftEdgeAutoLaunch_82BFA80A6E50F52B629CFC7E9583668A
+
+Процессы — топ-10 по CPU:
+Имя          PID CPU(сек) RAM(МБ)
+---          --- -------- -------
+browser     3320   2223,8     583
+MsMpEng    13320    826,5     296
+mbbService  5288    751,3       7
+System         4    668,6       0
+explorer    8724    588,1     170
+dwm         1764    583,2      74
+browser    12140    563,9     271
+WINWORD    10448      327     111
+browser    11600    215,6     185
+EPWD        4856    186,4      14
+
+Процессы — топ-10 по памяти:
+Имя                  PID RAM(МБ)
+---                  --- -------
+browser             3320     582
+Memory Compression  2848     404
+MsMpEng            13320     280
+chkdsk              2432     273
+browser            12140     271
+browser            11600     185
+explorer            8724     170
+Registry             116     121
+WINWORD            10448     111
+SearchApp           4968     109
+
+Службы — сводка:
+ Всего служб: 304 | Запущено: 135 | Остановлено: 169
+Службы с автозапуском, не запустившиеся с ошибкой: не обнаружены
+
+Обновления ОС:
+Всего обновлений в системе: 55
+
+
+Обновление Тип             Дата      
+---------- ---             ----      
+KB5126256  Security Update 16.09.2026
+KB5072653  Security Update 26.11.2025
+KB5066791  Security Update 24.11.2025
+KB5066130  Update          23.11.2025
+KB5066790  Security Update 23.11.2025
+KB5063261  Update          31.08.2025
+KB5063706  Security Update 10.08.2025
+KB5054682  Update          04.05.2025
+KB5050111  Update          02.03.2025
+KB5050388  Security Update 02.02.2025
+
+=== ПРОВЕРКА ЦЕЛОСТНОСТИ СИСТЕМНЫХ ФАЙЛОВ ===
+Запуск sfc /scannow...
+(Это может занять 5-15 минут. Требуются права администратора)
+
+  Начато сканирование системы.  Этот процесс может занять некоторое время.
+  Начало стадии проверки при сканировании системы.
+  Проверка 100% завершена.
+  Защита ресурсов Windows не обнаружила нарушений целостности.
+
+=== ТЕСТ СКОРОСТИ ИНТЕРНЕТА ===
+ Скачан тестовый файл 100 МБ за 50.88 сек.
+ Средняя скорость: 15.72 Мбит/с
+ Пинг Yandex DNS: Успех. Среднее время: 29 мс
+ Пинг Google DNS: Успех. Среднее время: 21 мс
+
+Звуковые устройства (PowerShell):
+  Microphone (Realtek(R) Audio)
+  Динамики (Realtek(R) Audio)
+
+Проверка файловой системы (chkdsk, режим только чтения):
+Безопасно: ошибки не исправляются, диск только анализируется.
+
+Диск C::
+  1623808 file records processed.
+  28753 large file records processed.
+  0 bad file records processed.
+  3749 reparse records processed.
+  0 unindexed files recovered to lost and found.
+  Phase duration (Orphan recovery to lost and found): 1.73 milliseconds.
+  3749 reparse records processed.
+  Windows has scanned the file system and found no problems.
+
+Износ SSD (объём записи по SMART):
+
+Диск /dev/sda ():
+  Записано за жизнь (TBW): 3.79 ТБ
+
+Анализ фрагментации (defrag /A — только анализ):
+
+Диск C::
+  Пропущено: диск SSD — фрагментация для него нерелевантна,
+  а анализ defrag расходует ресурс записи ячеек.
+
+Магнитных дисков (HDD) не найдено: в системе только SSD — анализ завершён.
+
+Тест случайного доступа 4K (3 сек запись + 3 сек чтение):
+
+Диск C::
+  Случайная запись:  29.71 МБ/с
+  Случайное чтение:  129.25 МБ/с
+
+Traceroute до 8.8.8.8 (без разрешения имён, до 12 прыжков):
+Tracing route to 8.8.8.8 over a maximum of 12 hops
+
+  1     4 ms    14 ms     6 ms  192.168.1.1 
+  2     7 ms    13 ms     *     10.2.51.254 
+  3    26 ms     4 ms     4 ms  10.2.52.10 
+  4     9 ms    19 ms    15 ms  95.83.152.233 
+  5     8 ms    13 ms     9 ms  95.83.175.33 
+  6    10 ms     *       17 ms  93.189.8.89 
+  7     *       13 ms    13 ms  172.16.254.97 
+  8     8 ms     9 ms     8 ms  172.16.254.97 
+  9    18 ms    23 ms     7 ms  188.43.239.38 
+ 10    21 ms    13 ms    65 ms  142.251.195.229 
+ 11    22 ms    12 ms    78 ms  188.43.3.141 
+ 12    10 ms    10 ms     *     192.178.241.245 
+
+Trace complete.
+Открытые порты (localhost): найдено 4 из 24 проверенных
+
+  Порт    Служба
+  135     RPC
+  3306    MySQL
+  445     SMB
+  8080    HTTP-alt
+
+Активные TCP-соединения:
+
+Established: 94
+  TimeWait: 86
+  Bound: 60
+  Listen: 51
+  SynSent: 2
+  CloseWait: 1
+
+Установленные соединения (кто с кем общается):
+127.0.0.1:9999  <-  adp-agent
+  127.0.0.1:49799  <-  aakore
+  213.180.193.234:443  <-  browser
+  213.180.193.45:443  <-  browser
+  127.0.0.1:9999  <-  mms_mini
+  127.0.0.1:9999  <-  monitoring-mini
+  77.88.44.55:443  <-  browser
+  127.0.0.1:49680  <-  schedul2
+  127.0.0.1:49679  <-  schedul2
+  127.0.0.1:49672  <-  schedul2
+  127.0.0.1:49675  <-  schedul2
+  127.0.0.1:49674  <-  schedul2
+  127.0.0.1:49678  <-  schedul2
+  127.0.0.1:49677  <-  schedul2
+  127.0.0.1:49682  <-  schedul2
+
+Диагностика DNS:
+
+DNS-серверы:
+Интерфейс Ethernet 3: 10.2.53.86, 10.2.53.94, 10.7.21.14
+  Интерфейс Беспроводная сеть: 192.168.1.1
+
+Проверка распознавания имён:
+  ya.ru        5.255.255.242, 77.88.55.242, 77.88.44.242
+  google.com   209.85.233.100, 209.85.233.138, 209.85.233.113
+  github.com   140.82.121.4
+
+/dev/sda:
+Модель: KINGSTON SKC6001024G
+  Серийный номер: 50026B7687448F1C
+  Прошивка: S4800116
+  Тип: SSD
+  Ёмкость: 954 ГБ
+  SMART: PASSED (диск здоров)
+  Температура: 39°C
+  Время работы: 1414 часов
+  Циклов включения: 409
+  Износ SSD: 1%
+  Остаток ресурса: 99%
+  SSD Life Left: 99%
+  Переназначенные сектора: 0
+  Ошибки передачи (UDMA CRC): 1
+
+Тест скорости диска:
+ Запись: 709.31 МБ/с | Чтение: 1136.90 МБ/с
