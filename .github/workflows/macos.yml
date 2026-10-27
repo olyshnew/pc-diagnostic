@@ -1,0 +1,22 @@
+name: macOS CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.21'   # подставьте версию из вашего go.mod
+
+      - name: Build
+        run: go build -o pc-diagnostic-macos .
+
+      - name: Run diagnostics
+        run: ./pc-diagnostic-macos   # здесь — реальный флаг запуска вашей программы
