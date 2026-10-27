@@ -17,6 +17,6 @@ jobs:
 
       - name: Build
         run: go build -o pc-diagnostic-macos .
-
+        
       - name: Run diagnostics
-        run: echo "C" | ./pc-diagnostic-macos
+        run: printf "C\n1\n" | ./pc-diagnostic-macos
