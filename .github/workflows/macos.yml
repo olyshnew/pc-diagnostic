@@ -18,5 +18,5 @@ jobs:
       - name: Build
         run: go build -o pc-diagnostic-macos .
 
-      - name: Run diagnostics
-        run: ./pc-diagnostic-macos   # здесь — реальный флаг запуска вашей программы
+       - name: Run diagnostics
+        run: echo "C" | ./pc-diagnostic-macos
